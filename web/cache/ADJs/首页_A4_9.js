@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0206/21462168.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(228,'http://www.biotrans-sh.com','上海百奥泉国际物流有限公司')\"  />");

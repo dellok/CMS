@@ -1,0 +1,49 @@
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.IDAL\bin\Debug\LL.IDAL.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.IDAL\bin\Debug\LL.IDAL.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.IDAL\bin\Debug\LL.Model.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.IDAL\bin\Debug\LL.Model.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.IDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.IDAL\obj\Debug\LL.IDAL.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.IDAL\obj\Debug\LL.IDAL.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.IDAL\bin\Debug\LL.IDAL.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.IDAL\bin\Debug\LL.IDAL.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.IDAL\bin\Debug\LL.Model.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.IDAL\bin\Debug\LL.Model.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.IDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.IDAL\obj\Debug\LL.IDAL.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.IDAL\obj\Debug\LL.IDAL.pdb
+E:\Projects\liot.org.cn\LL.IDAL\bin\Debug\LL.IDAL.dll
+E:\Projects\liot.org.cn\LL.IDAL\bin\Debug\LL.IDAL.pdb
+E:\Projects\liot.org.cn\LL.IDAL\bin\Debug\LL.Model.dll
+E:\Projects\liot.org.cn\LL.IDAL\bin\Debug\LL.Model.pdb
+E:\Projects\liot.org.cn\LL.IDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\liot.org.cn\LL.IDAL\obj\Debug\LL.IDAL.dll
+E:\Projects\liot.org.cn\LL.IDAL\obj\Debug\LL.IDAL.pdb
+E:\project\liot.org.cn\LL.IDAL\bin\Debug\LL.IDAL.dll
+E:\project\liot.org.cn\LL.IDAL\bin\Debug\LL.IDAL.pdb
+E:\project\liot.org.cn\LL.IDAL\bin\Debug\LL.Model.dll
+E:\project\liot.org.cn\LL.IDAL\bin\Debug\LL.Model.pdb
+E:\project\liot.org.cn\LL.IDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\project\liot.org.cn\LL.IDAL\obj\Debug\LL.IDAL.dll
+E:\project\liot.org.cn\LL.IDAL\obj\Debug\LL.IDAL.pdb
+E:\project\ect.org.cn\LL.IDAL\bin\Debug\LL.IDAL.dll
+E:\project\ect.org.cn\LL.IDAL\bin\Debug\LL.IDAL.pdb
+E:\project\ect.org.cn\LL.IDAL\bin\Debug\LL.Model.dll
+E:\project\ect.org.cn\LL.IDAL\bin\Debug\LL.Model.pdb
+E:\project\ect.org.cn\LL.IDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\project\ect.org.cn\LL.IDAL\obj\Debug\LL.IDAL.dll
+E:\project\ect.org.cn\LL.IDAL\obj\Debug\LL.IDAL.pdb
+E:\project\ecl.org.cn\LL.IDAL\bin\Debug\LL.IDAL.dll
+E:\project\ecl.org.cn\LL.IDAL\bin\Debug\LL.IDAL.pdb
+E:\project\ecl.org.cn\LL.IDAL\bin\Debug\LL.Model.dll
+E:\project\ecl.org.cn\LL.IDAL\bin\Debug\LL.Model.pdb
+E:\project\ecl.org.cn\LL.IDAL\obj\Debug\LL.IDAL.csprojResolveAssemblyReference.cache
+E:\project\ecl.org.cn\LL.IDAL\obj\Debug\LL.IDAL.dll
+E:\project\ecl.org.cn\LL.IDAL\obj\Debug\LL.IDAL.pdb
+E:\project\cpl.org.cn\LL.IDAL\bin\Debug\LL.IDAL.dll
+E:\project\cpl.org.cn\LL.IDAL\bin\Debug\LL.IDAL.pdb
+E:\project\cpl.org.cn\LL.IDAL\bin\Debug\LL.Model.dll
+E:\project\cpl.org.cn\LL.IDAL\bin\Debug\LL.Model.pdb
+E:\project\cpl.org.cn\LL.IDAL\obj\Debug\LL.IDAL.csprojResolveAssemblyReference.cache
+E:\project\cpl.org.cn\LL.IDAL\obj\Debug\LL.IDAL.dll
+E:\project\cpl.org.cn\LL.IDAL\obj\Debug\LL.IDAL.pdb

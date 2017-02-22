@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0305/12133873.jpg\"  style=\"width:189px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(202,'http://www.jztey.com/','九州通医药集团物流有限公司')\"  />");

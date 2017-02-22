@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0206/25236858.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(152,'http://www.kingmed.com.cn/','广州金域医学检验中心有限公司')\"  />");

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="Author" content="@ViewBag.Author">
+    <meta name="Keywords" content="@ViewBag.Keywords">
+    <meta name="Description" content="@ViewBag.Description">
+    <meta href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    @Styles.Render("~/css")
+    @Scripts.Render("~/scripts/index")
+    @Scripts.Render("~/bundles/jquery")
+   
+</head>
+
+<body>
+    @RenderPage("~/views/Shared/inc/header.cshtml")
+
+    <div class="mainbox member">
+
+
+        <table  class="tdMemberBox">
+
+
+            <tr>
+                <td class="member_left" >
+
+                    @RenderBody()
+
+                </td>
+
+                <td style="width: 20px; background: url(/images/member/bj.jpg)   "></td>
+                <td class="member_right">
+
+
+                    <img src="/images/member/right.jpg" width="280" height="522" border="0" usemap="#Map" />
+                    <map name="Map" id="Map">
+                      
+
+                     
+                        <area shape="rect" coords="23,78,259,122" href="/member/list/409/" target="_blank" />
+                        <area shape="rect" coords="22,174,259,219" href="/Member/details/66698" target="_blank" />
+                        <area shape="rect" coords="24,277,259,323" href="/Member/details/66699" target="_blank" />
+                        <area shape="rect" coords="23,382,258,427" href="/member/index/413/" target="_blank" />
+
+                        </map>
+</td>
+
+            </tr>
+
+
+
+
+        </table>
+
+
+      
+    </div>
+
+    @RenderPage("~/views/Shared/inc/footer.cshtml")
+ 
+</body>
+</html>
+

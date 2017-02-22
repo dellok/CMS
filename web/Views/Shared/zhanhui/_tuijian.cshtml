@@ -1,0 +1,35 @@
+﻿@model  List<phome_ecms_news>[]
+@{
+    List<phome_ecms_news> arrpic = (List<phome_ecms_news>)Model[0];
+   
+
+}
+
+
+    @for (int i = 0; i < arrpic.Count; i++)
+    {
+        var s = i % 6;
+        var item = arrpic[i];
+        var title = item.title;
+        var text=item.smalltext;
+        var img = string.Format("<img src=\"{0}\" alt=\"{1}\"/>", item.titlepic, item.title);
+        <div class="tuijian_box   box_@s s12"  >
+            <div class="imgbox">
+                @Html.ActionLinkArticleDetails(img, item)
+            </div>
+            <div class="tbox">
+            <h5>@Html.ActionLinkArticleDetails(item)</h5>
+             <h6>
+                 @text
+
+             </h6>
+                      
+ 
+            
+            </div>
+        </div>
+
+    }
+
+
+

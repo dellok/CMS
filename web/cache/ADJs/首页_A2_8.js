@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0305/30000399.jpg\"  style=\"width:189px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(204,'http://www.rokin.cn/','荣庆物流供应链有限公司')\"  />");

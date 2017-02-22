@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.liot.org.cn/up/ad/2013/A5-3.gif\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(168,'http://www.hnagroup.com/hhcy/xgcy/xx/','海南海航航空信息系统有限公司')\"  />");

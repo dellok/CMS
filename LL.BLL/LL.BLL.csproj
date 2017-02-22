@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{136C3119-5919-444A-8EFB-5C1400D67504}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LL.BLL</RootNamespace>
+    <AssemblyName>LL.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\BLLAdminInAdminRole.cs" />
+    <Compile Include="Admin\BLLAdminRole.cs" />
+    <Compile Include="Admin\BLLAdminUser.cs" />
+    <Compile Include="AD\BLLADList.cs" />
+    <Compile Include="BLLNewsCommon.cs" />
+    <Compile Include="Member\BLLMemberWebSiteFriendLink.cs" />
+    <Compile Include="News\BLLNewsFeedback.cs" />
+    <Compile Include="ServiceBase.cs" />
+    <Compile Include="Temp\BLLTempItem.cs" />
+    <Compile Include="Log\BLLVisitorLog.cs" />
+    <Compile Include="Member\BLLPhomeENewsQMsg.cs" />
+    <Compile Include="Member\BLLphome_enewsmembergroup.cs" />
+    <Compile Include="Member\BLLphome_enewsmember.cs" />
+    <Compile Include="Member\BLLphome_enewsmemberadd.cs" />
+    <Compile Include="Member\BLLphome_enewshy.cs" />
+    <Compile Include="Member\BLLphome_enewshyclass.cs" />
+    <Compile Include="Member\BLLphome_enewsgbook.cs" />
+    <Compile Include="Member\BLLphome_enewsgbookclass.cs" />
+    <Compile Include="Member\BLLphome_enewsmemberfeedback.cs" />
+    <Compile Include="Member\BLLphome_enewsmembergbook.cs" />
+    <Compile Include="Member\BLLphome_enewsspacestyle.cs" />
+    <Compile Include="Member\BLLphome_enewsfava.cs" />
+    <Compile Include="Member\BLLphome_enewsfavaclass.cs" />
+    <Compile Include="News\BLLphome_ecms_gsk.cs" />
+    <Compile Include="News\BLLphome_ecms_news.cs" />
+    <Compile Include="News\BLLphome_enewsclass.cs" />
+    <Compile Include="Popedom\BLLPopedomFun.cs" />
+    <Compile Include="Popedom\BLLPopedomFunGroup.cs" />
+    <Compile Include="Popedom\BLLPopedomFunInAdminRole.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BLLRoute.cs" />
+    <Compile Include="Upload\BLLUploadFile.cs" />
+    <Compile Include="BLLUploadManager.cs" />
+    <Compile Include="VipWebSite\BLLVipWebSite.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{37C284C4-9808-4496-807C-567E13114E37}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.Common\LL.Common.csproj">
+      <Project>{68DE19B8-14F5-42BC-BC5B-CBC8567E32EB}</Project>
+      <Name>LL.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.DALFactory\LL.DALFactory.csproj">
+      <Project>{F7C55703-5ACA-464F-988F-1FA3793A8EDE}</Project>
+      <Name>LL.DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.DAL\LL.DAL.csproj">
+      <Project>{915E07E4-CA28-470E-BE30-9330ADE3DCCF}</Project>
+      <Name>LL.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.IDAL\LL.IDAL.csproj">
+      <Project>{B839D13A-19E5-49CD-9EAB-B3121258ECC1}</Project>
+      <Name>LL.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.Model\LL.Model.csproj">
+      <Project>{106899A6-304A-4678-97ED-4274B707E15C}</Project>
+      <Name>LL.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.Common\Project.Common.csproj">
+      <Project>{16BC7A29-6ABD-45AD-9FB9-71AF606C6E50}</Project>
+      <Name>Project.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

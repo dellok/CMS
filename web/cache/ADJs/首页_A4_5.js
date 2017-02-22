@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0206/39704923.jpg\"  style=\"width:309px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(224,'http://www.dsyywl.com/','山东大舜医药物流有限公司')\"  />");

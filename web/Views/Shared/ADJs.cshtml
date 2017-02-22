@@ -1,0 +1,9 @@
+﻿@model   LL.Model.AD.ADList
+@{
+    var ADPage = ViewData["page"];
+    var ADPagePosition = ViewData["position"];
+    var Seq =  ViewData["seq"];
+    // string fileName = string.Format("{0}{1}_{2}_{3}.js", string.Format("{0}{1}", LL.Common.Cache.ConfigManager.MainDomain, LL.Common.Cache.ConfigManager.DirJsAD), ADPage, ADPagePosition, Format.DataConvertToInt(Seq)>0?Seq:1);
+    string fileName = string.Format("{0}{1}_{2}_{3}.js", string.Format("{0}",  LL.Common.Cache.ConfigManager.DirJsAD), ADPage, ADPagePosition, Format.DataConvertToInt(Seq) > 0 ? Seq : 1);
+<script src="@fileName" type="text/javascript" language="javascript"></script>
+ }

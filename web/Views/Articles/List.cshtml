@@ -1,0 +1,34 @@
+﻿@model  MvcPager
+
+<div class="mainbox  listpage">
+
+    <div class="left_box">
+
+        @Html.Partial("~/Views/Shared/Articles/List.cshtml", Model)
+    </div>
+    <div class="right_box">
+        <div class="right_ad_box ad_box_top">
+            <script src="/cache/ADJs/新闻列表页_A1_1.js" type="text/javascript" language="javascript"></script>
+            </div>
+
+            <div class="articlesblock">
+                <div class="right_title">推荐文章</div>
+
+                @Html.Action("ArticlesBlock", "Articles", new { classid = 0, top = 10, orderby = "isgood desc" })
+            </div>
+            <div class="right_ad_box">
+                <script src="/cache/ADJs/新闻列表页_A2_1.js" type="text/javascript" language="javascript"></script>
+
+            </div>
+
+            <div class="articlesblock">
+                <div class="right_title">热点文章</div>
+
+                @Html.Action("ArticlesBlock", "Articles", new { classid = 0, top = 10, orderby = "  onclick desc    " })
+            </div>
+
+        </div>
+
+
+
+</div>

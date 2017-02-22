@@ -1,0 +1,194 @@
+﻿@{
+    List<List<LL.Model.News.phome_ecms_news>> arr = ViewData.Model;
+
+    ViewBag.Title = @LL.Common.PubConstant.ZhanHui_Title;
+    ViewBag.KeyWord = @LL.Common.PubConstant.ZhanHui_KeyWord;
+    ViewBag.Description = @LL.Common.PubConstant.ZhanHui_Description;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var arrTitleList = new ViewDataDictionary();
+    arrTitleList.Add("isShowData",false);
+   
+}
+
+        <div class="mainbox zhmain">
+            <div class="left580">
+
+
+                <div class="titleblock">
+                    <div class="title_l">
+                        @Html.ActionLinkArticleList("图片新闻 ", 198)
+                    </div>
+                    <div class="title_r ">
+                    </div>
+                    <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+               
+              @{var slider = new ViewDataDictionary();
+                slider.Add("width",550);
+                slider.Add("height",296);
+                  }
+                @Html.Partial("~/Views/Shared/Index/_Partial_Slider.cshtml", arr[0],slider)
+
+                <style>
+
+                    </style>
+
+
+
+            </div>
+
+            <div class="right380">
+
+                <div class="titleblock">
+                    <div class="title_l">
+                        @Html.ActionLinkArticleList("展会资讯", 405)
+                    </div>
+                    <div class="title_r ">
+                    </div>
+                    <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+                <div class="datalist  hangye">
+                    @Html.Partial("~/Views/Shared/_TitleList.cshtml", arr[1], arrTitleList)
+                </div>
+
+            </div>
+        </div>
+        <div class="mainbox">
+
+            <div class="left580">
+                <div class="titleblock">
+                    <div class="title_l">
+                        @Html.ActionLinkArticleList("重点推荐", 200)
+                    </div>
+                    <div class="title_r ">
+                    </div>
+                    <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+                <div class="datalist  zh_tuijian">
+                    @Html.Partial("~/Views/Shared/ZhanHui/_tuijian.cshtml", new List<phome_ecms_news>[] { arr[2] })
+                </div>
+
+
+            </div>
+            <div class="right380">
+                <div class="titleblock">
+                    <div class="title_l">
+                        合作机构
+                    </div>
+                    <div class="title_r ">
+                    </div>
+                    <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+                <div class="datalist  zh_hezujigou">
+           
+                    @{
+                        List<phome_ecms_news> arrh = arr[3];
+                       
+                        
+                        for (int i = 0; i < arrh.Count; i++)
+                        {
+                        phome_ecms_news  m=arrh[i];
+                        string img = string.Format("<a href='{1}' target='_blank' ><img src='{0}' class='img_{2}' /></a>",m.titlepic,m.titleurl,i);
+
+                        @Html.Raw(img);
+                        }
+                        
+                        
+                    }
+                       
+                     
+</div>
+
+
+
+
+            </div>
+
+        </div>
+
+<div class="mainbox  zh_mainbox ">
+
+    <div class="left item280">
+        <div class="titleblock">
+            <div class="title_l">
+                @Html.ActionLinkArticleList("相关展会", 201)
+            </div>
+            <div class="title_r ">
+            </div>
+            <div class="space_l">
+            </div>
+            <div class="space_r">
+            </div>
+        </div>
+        <div class="datalist  ">
+            @Html.Partial("~/Views/Shared/_TitleList.cshtml", arr[4],arrTitleList)
+        </div>
+
+
+    </div>
+
+    <div class="middle item360">
+        <div class="titleblock">
+            <div class="title_l">
+                @Html.ActionLinkArticleList("展馆介绍", 202)
+            </div>
+            <div class="title_r ">
+            </div>
+            <div class="space_l">
+            </div>
+            <div class="space_r">
+            </div>
+        </div>
+        <div class="datalist zhanguan  ">
+            @Html.Partial("~/Views/Shared/index/_Partial_PicListAndTitleList.cshtml", new List<phome_ecms_news>[] { arr[5], arr[6] })
+        </div>
+
+
+
+
+    </div>
+
+    <div class="right item280">
+        <div class="titleblock">
+            <div class="title_l">
+                合作联系
+            </div>
+            <div class="title_r ">
+            </div>
+            <div class="space_l">
+            </div>
+            <div class="space_r">
+            </div>
+        </div>
+        <div class="datalist zhanhui_lianxiwomen  ">
+
+          @{
+              List<phome_ecms_news> arrN = arr[7];
+              phome_ecms_news model = arrN[0];
+              if (model!=null)
+              {
+                  var t = model.newstext;  
+         @Html.Raw(t)
+              }
+          }
+        </div>
+
+
+
+
+    </div>
+
+</div>

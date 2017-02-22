@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <title>@LL.Common.PubConstant.DomainName</title>
+    @{
+    
+       
+    Layout = null; 
+    List<List<LL.Model.News.phome_ecms_news>> arr = ViewData.Model;
+    
+
+}
+    <meta name="Author" content="@LL.Common.PubConstant.DomainName">
+    <meta name="Keywords" content="@LL.Common.PubConstant.DomainName">
+    <meta name="Description" content="@LL.Common.PubConstant.DomainName">
+    <meta href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+   @Styles.Render("~/css")
+    @Scripts.Render("~/scripts/index")
+
+   
+</head>
+
+<body class="index_body">
+
+
+    <div style="margin: 0px auto; width: 960px; padding: 0px;">
+        <script language="javascript" type="text/javascript" src="cache/ADJs/首页_A1_1.js"></script>
+
+    </div>
+    @RenderPage("~/views/Shared/inc/header.cshtml")
+   
+    <div class="mainbox col3">
+        <div class="  cpl_intro_item">
+            <ul>
+                <li class="intro1"><a href="/领导致辞-393/" target="_blank">领导致辞</a></li>
+                <li class="intro2"><a href="http://www.cpl.org.cn/articles/65641" target="_blank">协会简介</a></li>
+                <li class="intro1"><a href="http://www.cpl.org.cn/articles/66372" target="_blank">机构设置</a></li>
+                <li class="intro2"><a href="http://cpl.org.cn/articles/65983/" target="_blank">工作条例</a></li>
+                <li class="intro1"><a href="http://cpl.org.cn/Member/" target="_blank">会员专区</a></li>
+                <li class="intro2"><a href="http://cpl.org.cn/articles/65984" target="_blank">申请入会</a></li>
+                <li class="intro1 "><a href="http://www.cpl.org.cn/workgroup/423/" target="_blank"> 标准工作组</a></li>
+                <li class="intro2 "><a href="http://www.cpl.org.cn/articles/69329" target="_blank">研究中心</a></li>
+            </ul>
+        </div>
+        <div class="middle  pic_slider">
+            @Html.Partial("~/Views/Shared/Index/_Partial_Slider.cshtml", arr[1])
+        </div>
+        <div class="right item360">
+
+            <div class="titleblock">
+                <div class="title_l">
+                    @Html.ActionLinkArticleList("协会动态", 379)
+            </div>
+            <div class="title_r ">
+            </div>
+            <div class="space_l">
+            </div>
+            <div class="space_r">
+            </div>
+        </div>
+        <div class="datalist  hangye">
+            @Html.Partial("~/Views/Shared/Index/_Partial_3Col_Title.cshtml", arr[0])
+        </div>
+        </div>
+    </div>
+    @RenderPage("~/views/Shared/Index/ad2.cshtml")
+    <div class="mainbox col2">
+        <div class="left ">
+            <div class="item360">
+                <div class="titleblock">
+                    <div class="title_l">
+                        @Html.ActionLinkArticleList("产业新闻", "14")
+                    </div>
+                    <div class="title_r ">
+                    </div>
+                    <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+                <div class="datalist classnametitle">
+                    @Html.Partial("~/Views/Shared/Index/_Partial_ClassNameTitleList.cshtml", arr[2])
+                </div>
+            </div>
+
+            <div class="item360">
+
+                <div class="titleblock">
+                    <div class="title_l">
+                        @Html.ActionLinkArticleList("企业动态", 380)
+                    </div>
+                    <div class="title_r ">
+
+                    </div>
+                    <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+
+                <div class="datalist classnametitle">
+                    @Html.Partial("~/Views/Shared/Index/_Partial_ClassNameTitleList.cshtml", arr[3])
+
+                </div>
+            </div>
+
+        </div>
+        <div class="right580">
+            <div class="titleblock">
+                <div class="title_l">
+               @Html.ActionLinkArticleList("政策", 17,new {onmouseover="javascript:tabChange(1,2,'zs')"} )
+                            <b>/</b>
+                    @Html.ActionLinkArticleList("标准", 16, new { onmouseover = "javascript:tabChange(2,2,'zs')" })
+      
+                </div>
+                <div class="title_r ">
+                </div>
+                <div class="space_l">
+                </div>
+                <div class="space_r">
+                </div>
+            </div>
+            <div class="datalist zs">
+                <div id="zs_1"   class="itemTabShow">
+                    @Html.Partial("~/Views/Shared/Index/_Partial_BigPicNews.cshtml", arr[4])
+                </div>
+                <div id="zs_2" class="itemTabHide">
+                    @Html.Partial("~/Views/Shared/Index/_Partial_BigPicNews.cshtml", arr[5])
+                </div>
+             
+            </div>
+
+
+        </div>
+    </div>
+
+             @RenderPage("~/views/Shared/Index/ad3.cshtml")
+    
+    <div class="mainbox col3">
+        <div class="left item360">
+              <div class="titleblock">
+                <div class="title_l">
+                   
+    
+        @Html.ActionLinkArticleList("会员推荐", 389 )
+                </div>
+                <div class="title_r ">
+                </div>
+                <div class="space_l">
+                </div>
+                <div class="space_r">
+                </div>
+            </div>
+            <div class="datalist   jptj">
+
+          @Html.Partial("~/Views/Shared/index/_Partial_PicListAndTitleList.cshtml",   new List<phome_ecms_news>[]{arr[6],arr[7]})
+</div>
+
+        </div>
+        <div class="middle item280">
+              <div class="titleblock">
+              
+                <div class="title_l title_l_160">
+                 @Html.ActionLinkArticleList("热点视频", 12,new {onmouseover="javascript:tabChange(1,2,'hot_video_topic')"} )
+      <b>/</b>
+                    @Html.ActionLinkArticleList("热点专题", 10, new { onmouseover = "javascript:tabChange(2,2,'hot_video_topic')" })
+ 
+                </div>
+                <div class="title_r title_r_120">
+                </div>
+                <div class="space_l">
+                </div>
+                <div class="space_r">
+                </div>
+            </div>
+
+               <div class="datalist hot_video_topic">
+                <div id="hot_video_topic_1"   class="itemTabShow">
+                     @Html.Partial("~/Views/Shared/index/_Partial_PicTitle.cshtml", arr[8])
+                </div>
+                <div id="hot_video_topic_2" class="itemTabHide">
+                         @Html.Partial("~/Views/Shared/index/_Partial_PicTitle.cshtml", arr[9])
+                </div>
+             
+            </div>
+
+
+      
+
+        </div>
+        <div class="right item280">
+                        <div class="titleblock">
+              
+                <div class="title_l title_l_160">
+                                     @Html.ActionLinkArticleList("新闻人物", 7,new {onmouseover="javascript:tabChange(1,2,'xh')"} )
+      <b>/</b>@Html.ActionLinkArticleList(" 行业之声", 9, new { onmouseover = "javascript:tabChange(2,2,'xh')" })
+                   
+ 
+                </div>
+              <div class="title_r title_r_120">
+                </div>
+                <div class="space_l">
+                </div>
+                <div class="space_r">
+                </div>
+            </div>
+
+               <div class="datalist ">
+                <div id="xh_1"   class="itemTabShow">
+                     @Html.Partial("~/Views/Shared/index/_Partial_PicTitle.cshtml", arr[10])
+                </div>
+                <div id="xh_2" class="itemTabHide">
+                         @Html.Partial("~/Views/Shared/index/_Partial_PicTitle.cshtml", arr[11])
+                </div>
+             
+            </div>
+
+
+        </div>
+    </div>
+
+             @RenderPage("~/Views/Shared/index/ad4.cshtml")
+    <div class="mainbox left_col2">
+        <div class="left">
+            <div class="titleblock">
+                    <div class="title_l">
+                        @Html.ActionLinkArticleList("医药仓储", "p27")
+                    </div>
+                    <div class="title_r ">
+
+                        @Html.ActionLinkArticleList("园区", 28)
+                        @Html.ActionLinkArticleList("配送中心", 29)
+                        @Html.ActionLinkArticleList("库存", 30)
+                               @Html.ActionLinkArticleList("自动化", 31)
+                            </div>
+                    <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+
+            <div class="datalist  pic_135">
+                      @Html.Partial("~/Views/Shared/index/Partial_PicTitleAndList.cshtml",  new List<phome_ecms_news>[]{arr[12],arr[13]})
+
+            </div>
+            	 	 	 
+        </div>
+        <div class="middle item280">
+         
+         <div class="titleblock">
+                    <div class="title_l">
+                        @Html.ActionLinkArticleList("技术装备", "p100")
+                    </div>
+                    <div class="title_r title_r2">
+                      @Html.ActionLinkArticleList("信息化",101)
+                      @Html.ActionLinkArticleList("仓储设备", 102)
+                      @Html.ActionLinkArticleList("运输设备", 103)
+                      @Html.ActionLinkArticleList("包装设备", 104)                </div>
+                    <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+
+            <div class="datalist  pic_105">
+                @Html.Partial("~/Views/Shared/index/Partial_PicTitleAndList.cshtml", new List<phome_ecms_news>[] { arr[14], arr[15] })
+
+            </div>
+        </div>
+        <div class="right item280">
+
+                 <div class="titleblock">
+              
+                <div class="title_l">
+                      @Html.ActionLinkArticleList("品牌会议", 386)
+   
+                       
+                </div>
+                <div class="title_r ">
+                </div>
+                <div class="space_l">
+                </div>
+                <div class="space_r">
+                </div>
+            </div>
+            <div class="datalist  video pic_130">
+
+                @Html.Partial("~/Views/Shared/index/Partial_Video_PicListAndTitleList.cshtml", new List<phome_ecms_news>[] { arr[16], arr[17] })
+            </div>
+
+        </div>
+    </div>
+ 
+
+    @RenderPage("~/views/Shared/Index/ad5.cshtml")
+
+    
+
+    <div class="mainbox left_col2">
+        <div class="left">
+            <div class="titleblock">
+                    <div class="title_l">
+                        @Html.ActionLinkArticleList("运输配送 ", "p82")
+                    </div>
+                    <div class="title_r ">
+
+                        @Html.ActionLinkArticleList("干线", 83)
+                        @Html.ActionLinkArticleList("配送", 84)
+                        @Html.ActionLinkArticleList("空运", 85)
+                        @Html.ActionLinkArticleList("冷链", 86)
+                        @Html.ActionLinkArticleList("包装", 87)
+                   
+                            </div>
+                    <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+
+            <div class="datalist pic_135">
+                @Html.Partial("~/Views/Shared/index/Partial_PicTitleAndList.cshtml", new List<phome_ecms_news>[] { arr[18], arr[19] })
+
+            </div>
+            	 	 	 
+        </div>
+        <div class="middle item280">
+         
+         <div class="titleblock">
+                    <div class="title_l">
+                        @Html.ActionLinkArticleList("知识报告", "p128")
+                    </div>
+                    <div class="title_r ">
+                      @Html.ActionLinkArticleList("知识",129)
+                      @Html.ActionLinkArticleList("数据统计", 130)
+                      @Html.ActionLinkArticleList("行业报告", 131)                </div>
+                    <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+
+            <div class="datalist pic_105">
+                @Html.Partial("~/Views/Shared/index/Partial_PicTitleAndList.cshtml", new List<phome_ecms_news>[] { arr[20], arr[21] })
+
+            </div>
+        </div>
+        <div class="right item280">
+
+                 <div class="titleblock">
+              
+                <div class="title_l">
+                  <a href="/ZhanHui/" target="_blank">展会合作</a>    
+                </div>
+                <div class="title_r ">
+                </div>
+                <div class="space_l">
+                </div>
+                <div class="space_r">
+                </div>
+            </div>
+            <div class="datalist  video video2 pic_130">
+  @Html.Partial("~/Views/Shared/index/Partial_Video_PicListAndTitleList.cshtml", new List<phome_ecms_news>[] { arr[22], arr[23] })
+            </div>
+
+        </div>
+    </div>
+ 
+
+   
+
+
+    @RenderPage("~/views/Shared/inc/link.cshtml")
+
+    @RenderPage("~/views/Shared/inc/footer.cshtml")
+
+
+</body>
+</html>
+
+
+

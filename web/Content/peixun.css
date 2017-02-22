@@ -1,0 +1,180 @@
+﻿.body-peixun {
+    /*  margin-top:10px;  */
+}
+
+    .body-peixun .box-peixun-left {
+        width: 650px;
+        float: left;
+    }
+
+    .body-peixun .box-peixun-right {
+        width: 290px;
+        float: right;
+    }
+
+    .body-peixun .titlebar {
+        width: 100%;
+        height: 35px;
+        vertical-align: middle;
+        line-height: 35px;
+        background: url(/images/titlebar-arrow-peixun.jpg) no-repeat #F5F5F5 0 0;
+        margin-bottom: 15px;
+    }
+
+        .body-peixun .titlebar .titleword {
+            margin-left: 25px;
+        }
+
+
+        .body-peixun .titlebar a {
+            font-size: 16px;
+        }
+
+
+
+
+/**slider*/
+/*.slider {
+    padding-top: 10px;
+}*/
+
+.box-slider #peixunCarousel {
+    width: 100%;
+}
+.slider {
+
+ height:360px;
+}
+
+#peixunCarousel img.slider-img {
+    width: 650px;
+    height: 360px;
+    margin: 0px;
+}
+
+.box-peixun-column {
+    margin-top: 15px;
+}
+
+/**覆盖 site.css 中属性**/
+.mainbox .left {
+    width: 100%;
+}
+
+
+/**课程回顾**/
+
+
+ul.listitem, ul.listitem li {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: block;
+}
+
+
+.box-lesson-review ul.listitem li,.box-quality-lesson ul.listitem li {
+    height: 120px;
+    line-height: 120px;
+ 
+    vertical-align: middle;
+    padding: 10px 0px 9px 0px;
+    background-image: url("/images/ditu.jpg");
+}
+
+    /*.box-lesson-review .listitem li:first-child {
+    margin-top: 0px;
+}*/
+
+    .box-lesson-review ul.listitem li img,.box-quality-lesson ul.listitem li img {
+        float: left;
+        
+        margin-right: 20px;
+    }
+    .box-lesson-review ul.listitem li img {
+        width: 90px;
+        height: 100px;
+        /*background: url(/images/unknown-lesson.jpg);*/
+    }
+
+ .box-quality-lesson ul.listitem li img {
+    width:80px;
+    height:80px;
+    
+    -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 150%;
+
+}
+
+    .box-lesson-review ul.listitem li p, .box-quality-lesson  ul.listitem li p{
+       width:auto;
+        height: 25px;
+        display: block;
+        line-height: 25px;
+        font-size: 18px;
+        overflow: hidden;
+    }
+    .box-lesson-review ul.listitem li p {
+   
+        height:40px;
+        line-height:40px;
+    }
+    .box-quality-lesson ul.listitem li p {
+     font-size:12px;
+    
+    }
+.box-quality-lesson ul.listitem li p.title {
+
+ font-weight:bolder;
+
+}
+     .box-quality-lesson ul.listitem li p.intro {
+         line-height:25px;
+         height:50px;
+
+
+}
+
+        .box-lesson-review ul.listitem li p, .box-lesson-review ul.listitem li p a {font-size: 16px;        }
+
+        /*新课程**/
+.box-new-lesson  .listitem li,.box-recommend-lesson  .listitem li {
+
+    width:200px;
+    height:160px;
+    padding:9px;
+    float:left;
+    border:1px solid #CCCCCC;
+}
+.box-new-lesson .listitem li.second-item,.box-recommend-lesson .listitem li.second-item {
+
+ 
+    margin:auto 25px;
+}
+    .box-new-lesson .listitem li img,.box-recommend-lesson  .listitem li img{
+    
+        width:180px;
+        height:140px;
+
+       background:url(/images/unknown-lesson.jpg);
+    
+    
+    }
+    /** bootstrap p  样式覆盖**/
+p {
+margin:0px;
+}
+
+ a:link,  a:focus,  a:hover  {
+
+
+              color:#333;
+    text-decoration:none;
+
+}
+
+button, input, optgroup, select, textarea {
+
+ font:normal;
+}

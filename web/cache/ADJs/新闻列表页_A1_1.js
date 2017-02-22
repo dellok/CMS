@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0310/8923315.jpg\"  style=\"\" onclick=\"javascript:ADClass.ADHit2(196,'http://www.cpl.org.cn/zt/CPCLS2015/?AspxAutoDetectCookieSupport=1','2015(第四届)中国药品冷链物流峰会')\"  />");

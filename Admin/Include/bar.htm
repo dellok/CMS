@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<body style="background: url(/images/line_middle.jpg) repeat-y ;padding: 0px;    margin: 0px;">
+    <img id="imgBar" align='top' src="/images/line_middle_left.jpg" alt="折叠左侧菜单"
+        onclick="SetFrame()" style="cursor: pointer; margin-top: 30px; padding: 0px;
+        margin-left: 0px; margin-bottom: 0px; margin-right: 0px;" />
+</body>
+<script type="text/javascript" language="javascript">
+    
+    var targetLeft = "mainLeft";
+    
+    var targetBodyMain = "bodyMain";
+    
+    var IsExpand = true;
+    
+    var imgBar = "imgBar";
+
+    var imgArrowLeft = "/images/line_middle_left.jpg";
+
+    var imgArrowRight = "/images/line_middle_right.jpg";
+
+    function SetFrame() 
+    {
+        if (IsExpand == true) {
+            parent.document.getElementById(targetBodyMain).cols = "0,12,*";
+            document.getElementById(imgBar).src = imgArrowRight;
+            IsExpand = false;
+        }
+        else {
+            parent.document.getElementById(targetBodyMain).cols = "230,12,*";
+            document.getElementById(imgBar).src = imgArrowLeft;
+            IsExpand = true;
+        }
+    }
+</script>

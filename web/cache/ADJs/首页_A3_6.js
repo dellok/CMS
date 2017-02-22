@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2014/1128/15361737.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(143,'http://new.netax.cn/','上海康驰物流有限公司')\"  />");

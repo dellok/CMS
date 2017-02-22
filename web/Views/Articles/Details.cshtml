@@ -1,0 +1,89 @@
+﻿@{ phome_ecms_news detailArticle = (phome_ecms_news)Model;}
+  <table width="960" border="0" align="center" cellpadding="0" cellspacing="0" id="pageNewsDetail">
+        <tr>
+            <td height="40" colspan="3">
+                 你的位置：<a href="/">首页</a> @Html.Action("CategoryUrlPath", "Category", new { classid = detailArticle.classid }) @detailArticle.title
+            </td>
+        </tr>
+        <tr>
+            <td width="650" valign="top">
+              	  <table width="650" border="0" cellpadding="0" cellspacing="1" bgcolor="#AACBEE">
+                    <tr>
+                        <td height="2" bgcolor="#2158A7">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#FFFFFF">
+
+                            @Html.Partial("~/Views/Shared/Articles/Detail.cshtml", detailArticle)
+
+                            <table border="0" align="center" class="articlesblock xgtitlelist" cellpadding="0" cellspacing="1" width="630" bgcolor="#AACBEE">
+                                <tr valign="top">
+                                    <th>
+                                        相关文章
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td height="195" bgcolor="#FFFFFF">
+
+
+                                        @Html.Action("ArticlesBlock", "Articles", new { classid = Model.classid, top = 10, orderby = "" })
+
+
+                                    </td>
+                                </tr>
+                            </table>
+                            <br/>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="10">
+                &nbsp;
+            </td>
+            <th width="300" valign="top">          
+                <div class="right_ad_box ad_box_top">
+                    <script src="/cache/ADJs/新闻详细页_A2_1.js" type="text/javascript" language="javascript"></script>
+                    </div>
+                    <table width="300" class="articlesblock" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#AACBEE">
+                        <tr valign="top">
+                            <th>
+                                栏目最新
+                            </th>
+                        </tr>
+                        <tr>
+                            <td height="205" bgcolor="#FFFFFF" valign="top" style="padding-left:8px;">
+
+                                @Html.Action("ArticlesBlock", "Articles", new { classid = detailArticle.classid, top = 10, orderby = "" })
+                            </td>
+                        </tr>
+                    </table>
+                <div class="right_ad_box">
+                    <script src="/cache/ADJs/新闻详细页_A3_1.js" type="text/javascript" language="javascript"></script>
+                </div>
+
+                    <table width="300" border="0" align="center" class="articlesblock " cellpadding="0" cellspacing="1" bgcolor="#AACBEE">
+                        <tr valign="top">
+                            <th>
+                                推荐文章
+                            </th>
+                        </tr>
+                        <tr>
+                            <td height="205" bgcolor="#FFFFFF" valign="top" style="padding-left:8px;">
+
+                                @Html.Action("ArticlesBlock", "Articles", new { classid = 0, top = 10, orderby = "   isgood desc ,newstime desc    " })
+
+                            </td>
+                        </tr>
+                    </table>
+                   
+</tr>
+        <tr>
+            <td colspan="3">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+
+
+

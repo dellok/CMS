@@ -1,0 +1,29 @@
+﻿@model    List<LL.Model.News.phome_ecms_news>
+
+@{
+     var   isShowDate=ViewData["isShowDate"];
+
+    BLLphome_enewsclass bllClass = new BLLphome_enewsclass();
+}
+<ul>
+    @for (int i = 0; i < Model.Count(); i++)
+    {
+        var item = Model[i];
+
+
+        <li>
+
+            <span class="dian"><img width="3" class="dian" height="6" src="/images/dian.gif"></span>
+            <span class="title">@Html.ActionLinkArticleDetails(item)</span>
+            
+               @if (isShowDate!=null &&   isShowDate.ToString().ToLower() == "true")
+                {
+            <span class="date">@item.newstime.ToString("MM-dd")</span>
+                }
+          
+            
+            
+
+        </li>
+    }
+</ul>

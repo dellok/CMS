@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0305/30864490.jpg\"  style=\"width:189px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(203,'http://www.sf-express.com/cn/sc/express/sf_cold_chain/sf_cold_storage_warehouse/shanghai_fresh_no.-1_cold_storage_warehouse/','顺丰速运有限公司冷运事业部')\"  />");

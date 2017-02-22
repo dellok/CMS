@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0305/11639125.jpg\"  style=\"width:189px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(230,'http://www.huarenwl.com/','北京盛世华人物流有限公司')\"  />");

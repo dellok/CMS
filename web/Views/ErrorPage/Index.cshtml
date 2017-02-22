@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "错误页面："+Response.StatusCode;
+    Layout = "~/Views/Shared/_Layout_Channel.cshtml";
+}
+
+<style>
+
+
+    h1 ,h2{
+        font-size:58px; font-weight:bolder;
+
+        margin-bottom:0px;
+        text-align:center;
+    }
+
+    h2 {
+    
+     font-size:42px; color:red;
+    }
+
+</style>
+
+
+<div class="mainbox">
+   
+    <h1>@Response.StatusCode</h1>
+    <h2>@ViewBag.msg</h2>
+ </div>
+

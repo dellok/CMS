@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.liot.org.cn/up/ad/2013/A5-4.gif\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(169,'http://www.huarong56.com/','ºþ±±»ªÈÚ')\"  />");

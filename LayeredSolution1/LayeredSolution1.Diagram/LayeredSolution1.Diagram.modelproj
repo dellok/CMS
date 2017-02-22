@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48ff146e-9dec-4ec7-8b66-784496254b88}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>LayeredSolution1.Diagram</Name>
+    <RootNamespace>LayeredSolution1.Diagram</RootNamespace>
+    <ValidateArchitecture>true</ValidateArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\LayeredSolution1.Diagram.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="LayeredSolution1.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="LayeredSolution1.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LayeredSolution1.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="LayeredSolution1.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>LayeredSolution1.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LayeredSolution1.BL\LayeredSolution1.BL.csproj">
+      <Project>{a30599b5-8090-4d5c-aaf8-edc0796bc7e2}</Project>
+      <Name>LayeredSolution1.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LayeredSolution1.DBL\LayeredSolution1.DBL.csproj">
+      <Project>{a597561f-34ad-486e-b682-dbd003499970}</Project>
+      <Name>LayeredSolution1.DBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LayeredSolution1.SL\LayeredSolution1.SL.csproj">
+      <Project>{072c408b-eac4-4bf8-a74e-2cf028b6e544}</Project>
+      <Name>LayeredSolution1.SL</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0305/53091521.jpg\"  style=\"width:189px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(102,'http://www.hnshsy.cn/','湖南山河供应链有限公司')\"  />");

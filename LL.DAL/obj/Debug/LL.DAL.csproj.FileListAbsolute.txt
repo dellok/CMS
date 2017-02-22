@@ -1,0 +1,105 @@
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\LL.DAL.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\LL.DAL.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\LL.Common.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\LL.IDAL.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\LL.Model.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\Project.Common.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\LL.Common.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\LL.IDAL.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\LL.Model.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\bin\Debug\Project.Common.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\obj\Debug\LL.DAL.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\LL.DAL\obj\Debug\LL.DAL.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\LL.DAL.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\LL.DAL.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\DBUtility.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\LL.Common.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\LL.IDAL.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\LL.Model.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\Project.Common.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\DBUtility.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\LL.Common.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\LL.IDAL.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\LL.Model.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\bin\Debug\Project.Common.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\obj\Debug\LL.DAL.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\LL.DAL\obj\Debug\LL.DAL.pdb
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\LL.DAL.dll
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\LL.DAL.pdb
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\DBUtility.dll
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\LL.Common.dll
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\LL.IDAL.dll
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\LL.Model.dll
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\Project.Common.dll
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\DBUtility.pdb
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\LL.Common.pdb
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\LL.IDAL.pdb
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\LL.Model.pdb
+E:\Projects\liot.org.cn\LL.DAL\bin\Debug\Project.Common.pdb
+E:\Projects\liot.org.cn\LL.DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\liot.org.cn\LL.DAL\obj\Debug\LL.DAL.dll
+E:\Projects\liot.org.cn\LL.DAL\obj\Debug\LL.DAL.pdb
+E:\project\liot.org.cn\LL.DAL\bin\Debug\LL.DAL.dll
+E:\project\liot.org.cn\LL.DAL\bin\Debug\LL.DAL.pdb
+E:\project\liot.org.cn\LL.DAL\bin\Debug\DBUtility.dll
+E:\project\liot.org.cn\LL.DAL\bin\Debug\LL.Common.dll
+E:\project\liot.org.cn\LL.DAL\bin\Debug\LL.IDAL.dll
+E:\project\liot.org.cn\LL.DAL\bin\Debug\LL.Model.dll
+E:\project\liot.org.cn\LL.DAL\bin\Debug\Project.Common.dll
+E:\project\liot.org.cn\LL.DAL\bin\Debug\DBUtility.pdb
+E:\project\liot.org.cn\LL.DAL\bin\Debug\LL.Common.pdb
+E:\project\liot.org.cn\LL.DAL\bin\Debug\LL.IDAL.pdb
+E:\project\liot.org.cn\LL.DAL\bin\Debug\LL.Model.pdb
+E:\project\liot.org.cn\LL.DAL\bin\Debug\Project.Common.pdb
+E:\project\liot.org.cn\LL.DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\project\liot.org.cn\LL.DAL\obj\Debug\LL.DAL.dll
+E:\project\liot.org.cn\LL.DAL\obj\Debug\LL.DAL.pdb
+E:\project\ect.org.cn\LL.DAL\bin\Debug\LL.DAL.dll
+E:\project\ect.org.cn\LL.DAL\bin\Debug\LL.DAL.pdb
+E:\project\ect.org.cn\LL.DAL\bin\Debug\DBUtility.dll
+E:\project\ect.org.cn\LL.DAL\bin\Debug\LL.Common.dll
+E:\project\ect.org.cn\LL.DAL\bin\Debug\LL.IDAL.dll
+E:\project\ect.org.cn\LL.DAL\bin\Debug\LL.Model.dll
+E:\project\ect.org.cn\LL.DAL\bin\Debug\Project.Common.dll
+E:\project\ect.org.cn\LL.DAL\bin\Debug\DBUtility.pdb
+E:\project\ect.org.cn\LL.DAL\bin\Debug\LL.Common.pdb
+E:\project\ect.org.cn\LL.DAL\bin\Debug\LL.IDAL.pdb
+E:\project\ect.org.cn\LL.DAL\bin\Debug\LL.Model.pdb
+E:\project\ect.org.cn\LL.DAL\bin\Debug\Project.Common.pdb
+E:\project\ect.org.cn\LL.DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\project\ect.org.cn\LL.DAL\obj\Debug\LL.DAL.dll
+E:\project\ect.org.cn\LL.DAL\obj\Debug\LL.DAL.pdb
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\LL.DAL.dll
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\LL.DAL.pdb
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\DBUtility.dll
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\LL.Common.dll
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\LL.IDAL.dll
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\LL.Model.dll
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\Project.Common.dll
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\DBUtility.pdb
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\LL.Common.pdb
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\LL.IDAL.pdb
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\LL.Model.pdb
+E:\project\ecl.org.cn\LL.DAL\bin\Debug\Project.Common.pdb
+E:\project\ecl.org.cn\LL.DAL\obj\Debug\LL.DAL.csprojResolveAssemblyReference.cache
+E:\project\ecl.org.cn\LL.DAL\obj\Debug\LL.DAL.dll
+E:\project\ecl.org.cn\LL.DAL\obj\Debug\LL.DAL.pdb
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\LL.DAL.dll
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\LL.DAL.pdb
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\DBUtility.dll
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\LL.Common.dll
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\LL.IDAL.dll
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\LL.Model.dll
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\Project.Common.dll
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\DBUtility.pdb
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\LL.Common.pdb
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\LL.IDAL.pdb
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\LL.Model.pdb
+E:\project\cpl.org.cn\LL.DAL\bin\Debug\Project.Common.pdb
+E:\project\cpl.org.cn\LL.DAL\obj\Debug\LL.DAL.csprojResolveAssemblyReference.cache
+E:\project\cpl.org.cn\LL.DAL\obj\Debug\LL.DAL.dll
+E:\project\cpl.org.cn\LL.DAL\obj\Debug\LL.DAL.pdb

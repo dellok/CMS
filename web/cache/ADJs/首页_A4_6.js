@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0227/43896436.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(225,'http://www.cndflq.com/','通辽东方利群药品有限公司')\"  />");

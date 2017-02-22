@@ -1,0 +1,799 @@
+﻿
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>中国电商物流研究中心</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.STYLE1 {color: #FFFFFF}
+body,td,th {
+	font-size: 12px;
+	font-family: 微软雅黑;
+}
+.STYLE6 {
+	color: #FF6600;
+	font-size: 12px;
+}
+.STYLE7 {font-size: 14px; font-weight: bold; color: #FFFFFF; }
+.STYLE13 {color: #FFFFFF; font-size: 14px; }
+.STYLE30 {color: #000000; font-weight: bold; font-size: 16px; }
+.STYLE33 {font-size: 14px}
+.STYLE51 {font-size: 18px; font-weight: bold; color: #000000; }
+.STYLE72 {color: #074F8A; font-weight: bold; }
+.STYLE14 {color: #E94709}
+.STYLE15 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.STYLE61 {	color: #000000;
+	font-weight: bold;
+}
+.STYLE26 {color: #000000; font-weight: bold; font-size: 14px; }
+.STYLE62 {color: #000000}
+.STYLE18 {font-size: 16px; font-weight: bold; color: #FFFFFF; }
+.STYLE20 {color: #FFFFFF; font-size: 12px; }
+-->
+</style></head>
+
+<body>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr bgcolor="#013c26">
+    <td height="35" bgcolor="#000033"><table width="935" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="108"><span class="STYLE1">设为首页 │ 注册</span></td>
+        <td width="271"><table width="38" height="15" border="0" cellpadding="0" cellspacing="0" bgcolor="#FF3300">
+            <tr>
+              <td height="17"><div align="center"><span class="STYLE1">登录</span></div></td>
+            </tr>
+        </table></td>
+        <td width="40">&nbsp;</td>
+        <td width="321" valign="bottom">&nbsp;</td>
+        <td width="131"><div align="right"><span class="STYLE1">微博</span></div></td>
+        <td width="10"><div align="center"></div></td>
+        <td width="54"><span class="STYLE6">微信</span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr bgcolor="#013c26">
+    <td height="5" bgcolor="#01301F"></td>
+  </tr>
+  <tr bgcolor="#013c26">
+    <td height="130" bgcolor="#0A315A"><table width="955" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="410" height="110" bgcolor="#0A315A"><img src="iamge/LOGO.jpg" width="358" height="89" /></td>
+        <td width="545"><table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td><span class="STYLE13">中心介绍</span></td>
+              <td><span class="STYLE13">行业政策</span></td>
+              <td><span class="STYLE13">电商业态 </span></td>
+              <td><span class="STYLE13">新闻人物</span></td>
+              <td><span class="STYLE13">品牌会议</span></td>
+              <td><span class="STYLE13">电子刊</span></td>
+              <td><span class="STYLE13"> 展会</span></td>
+            </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr bgcolor="#013c26">
+    <td height="80" bgcolor="#000033"><table width="940" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="19%" height="30" valign="middle"><div align="center" class="STYLE7">
+            <div align="left">B2B &nbsp;|&nbsp; B2C</div>
+        </div></td>
+        <td width="25%" height="30" valign="middle"><div align="center" class="STYLE7">
+            <div align="left">跨境电商 &nbsp; |  &nbsp;移动电商</div>
+        </div></td>
+        <td width="24%" height="30" valign="middle"><div align="center" class="STYLE7">
+            <div align="left">仓储部局 &nbsp;|  &nbsp;库存调拨　　</div>
+        </div></td>
+        <td width="32%" height="30" valign="middle"><div align="center" class="STYLE7">
+            <div align="left">邮政快递 &nbsp; |  &nbsp;ＣＯＤ</div>
+        </div></td>
+      </tr>
+      <tr>
+        <td width="19%" height="30" valign="middle"><div align="center" class="STYLE7">
+            <div align="left">C2C &nbsp;| &nbsp; O2O</div>
+        </div></td>
+        <td width="25%" height="30" valign="middle"><div align="center" class="STYLE7">
+            <div align="left">生鲜电商 &nbsp;&nbsp;|  &nbsp;传统企业　</div>
+        </div></td>
+        <td width="24%" height="30" valign="middle"><div align="center" class="STYLE7">
+            <div align="left">运输配送 &nbsp;|  &nbsp;国际物流</div>
+        </div></td>
+        <td width="32%" height="30" valign="middle"><div align="center" class="STYLE7">
+            <div align="left"> 社区物流 &nbsp; |  &nbsp;冷链物流</div>
+        </div></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top"><br />
+      <table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="390" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="250" height="50" colspan="3" valign="middle"><span class="STYLE51">2014年1月中国物流业景气指数为51.5%</span></td>
+            </tr>
+            <tr>
+              <td width="250" height="35" valign="middle" background="image/1-1.gif"><div align="left">[中国非制造业活动] </div></td>
+              <td width="250" height="35" valign="middle" background="image/1-1.gif"><div align="left">[中国非制造业活动] </div></td>
+              <td width="250" height="35" valign="middle" background="image/1-1.gif"><div align="left">[中国非制造业活动] </div></td>
+            </tr>
+            <tr>
+              <td height="50" colspan="3" valign="middle" background="image/1-1.gif"><div align="left"><span class="STYLE51">2014年1月中国物流业景气指数为51.5%</span></div></td>
+            </tr>
+            <tr>
+              <td height="35" valign="middle" background="image/1-1.gif"><div align="left">[中国非制造业活动] </div></td>
+              <td height="35" valign="middle" background="image/1-1.gif"><div align="left">[中国非制造业活动] </div></td>
+              <td height="35" valign="middle" background="image/1-1.gif"><div align="left">[中国非制造业活动] </div></td>
+            </tr>
+            <tr>
+              <td height="45" colspan="3" valign="middle" background="image/1-1.gif"><div align="left"><span class="STYLE51">2014年1月中国物流业景气指数为51.5%</span></div></td>
+            </tr>
+            <tr>
+              <td height="35" valign="middle" background="image/1-1.gif"><div align="left">[中国非制造业活动] </div></td>
+              <td height="35" valign="middle" background="image/1-1.gif"><div align="left">[中国非制造业活动] </div></td>
+              <td height="35" valign="middle" background="image/1-1.gif"><div align="left">[中国非制造业活动] </div></td>
+            </tr>
+        </table></td>
+        <td width="8">&nbsp;</td>
+        <td width="562" valign="top"><img src="iamge/right.jpg" width="562" height="262" /></td>
+      </tr>
+      <tr>
+        <td width="390" valign="top"><table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="78" height="50" valign="bottom"><span class="STYLE30">模 式 </span></td>
+              <td width="302" valign="bottom"><table width="70%" border="0" align="right" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="25">B2B</td>
+                  <td height="25"> B2C</td>
+                  <td height="25"> C2C</td>
+                  <td height="25"> <span class="STYLE14">O2O</span></td>
+                </tr>
+                
+              </table></td>
+            </tr>
+            <tr>
+              <td height="20" colspan="2"><table width="95%" height="2" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="15%" height="2" bgcolor="#074F8A"></td>
+                    <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                  </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td height="35" colspan="2"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> <span class="STYLE72">[电子商务]</span> 京东商城2014年东北区支线承运商   01月20日</span></td>
+            </tr>
+            <tr>
+              <td height="35" colspan="2"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> <span class="STYLE72">[电子商务]</span> 京东商城2014年东北区支线承运商   01月20日</span></td>
+            </tr>
+            <tr>
+              <td height="35" colspan="2"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> <span class="STYLE72">[电子商务]</span> 京东商城2014年东北区支线承运商   01月20日</span></td>
+            </tr>
+
+        </table></td>
+        <td width="8" rowspan="2">&nbsp;</td>
+        <td rowspan="2" valign="top"><table width="99%" border="0" align="right" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="155" height="50" valign="bottom"><span class="STYLE30">政策 \ 声音  </span></td>
+            <td width="396" valign="bottom">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="20" colspan="2"><table width="95%" height="2" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="15%" height="2" bgcolor="#074F8A"></td>
+                  <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="269"><img src="iamge/gyd.jpg" width="168" height="242" /></td>
+            <td height="269"><table width="93%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="30" colspan="2"><span class="STYLE15">2014年1月中国物流业景气指数为51.5%</span></td>
+                </tr>
+              <tr>
+                <td height="30" colspan="2">中国物流与采购联合会发布的2014年1月份中国物流业景气指数</td>
+                </tr>
+              <tr>
+                <td height="30" colspan="2">为比上月回落0.9个百分点。业务总量指数、新订单指数...[详细]</td>
+                </tr>
+              <tr>
+                <td height="15" colspan="2">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="48%" height="30" valign="bottom"><strong>崔婷婷：</strong>虚拟运营商赚钱之 </td>
+                <td width="48%" height="30" valign="bottom"><strong>崔婷婷：</strong>虚拟运营商赚钱之 </td>
+              </tr>
+              <tr>
+                <td height="30" valign="bottom">做的事:创新模式  详情&gt;&gt; </td>
+                <td height="30" valign="bottom">做的事:创新模式  详情&gt;&gt; </td>
+              </tr>
+              <tr>
+                <td width="48%" height="35" valign="bottom"><strong>崔婷婷：</strong>虚拟运营商赚钱之 </td>
+                <td width="48%" height="35" valign="bottom"><strong>崔婷婷：</strong>虚拟运营商赚钱之 </td>
+              </tr>
+              <tr>
+                <td height="30" valign="bottom">做的事:创新模式  详情&gt;&gt; </td>
+                <td height="30" valign="bottom">做的事:创新模式  详情&gt;&gt; </td>
+              </tr>
+            </table></td>
+          </tr>
+
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="78" height="37" valign="bottom"><span class="STYLE30">热 点 </span></td>
+            <td width="302" valign="bottom"><table width="70%" height="25" border="0" align="right" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="25">跨境</td>
+                  <td height="25"> 生鲜</td>
+                  <td height="25"> 移动</td>
+                  <td height="25"> 传统</td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="20" colspan="2"><table width="95%" height="2" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="15%" height="2" bgcolor="#074F8A"></td>
+                  <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="35" colspan="2"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> <span class="STYLE72">[电子商务]</span> 京东商城2014年东北区支线承运商   01月20日</span></td>
+          </tr>
+          <tr>
+            <td height="35" colspan="2"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> <span class="STYLE72">[电子商务]</span> 京东商城2014年东北区支线承运商   01月20日</span></td>
+          </tr>
+          <tr>
+            <td height="35" colspan="2"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> <span class="STYLE72">[电子商务]</span> 京东商城2014年东北区支线承运商   01月20日</span></td>
+          </tr>
+          
+        </table></td>
+      </tr>
+    </table>      </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="390" valign="top"><table width="380" border="0" align="left" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="246" height="33" valign="bottom"><span class="STYLE30">精品推荐</span></td>
+            </tr>
+            <tr>
+              <td height="20"><table width="95%" height="2" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="17%" height="2" bgcolor="#074F8A"></td>
+                    <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                  </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td height="50"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="110" height="86"><img src="iamge/1-13.gif" width="99" height="66" /></td>
+                    <td width="110" height="86"><img src="iamge/1-13.jpg" width="99" height="66" /></td>
+                    <td width="118" height="86"><img src="iamge/1-13.gif" width="99" height="66" /></td>
+                    <td width="42" height="86"><div align="left"><img src="iamge/1-14.gif" width="24" height="66" /></div></td>
+                  </tr>
+                  <tr>
+                    <td width="110" height="40"> 物流运力配载的革<br />
+                      新时代</td>
+                    <td width="110" height="40"> 物流运力配载的革<br />
+                      新时代</td>
+                    <td width="118" height="40"> 物流运力配载的革<br />
+                      新时代</td>
+                    <td height="40">&nbsp;</td>
+                  </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td height="84"><table width="97%" border="0" cellspacing="3" cellpadding="0">
+                  <tr>
+                    <td bgcolor="#ededed"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> </span>浙江平阳加速推进“电商换市</td>
+                    <td height="30" bgcolor="#ededed"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> </span>浙江平阳加速推进“电商换市</td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#ededed"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> </span>浙江平阳加速推进“电商换市</td>
+                    <td height="30" bgcolor="#ededed"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> </span>浙江平阳加速推进“电商换市</td>
+                  </tr>
+              </table></td>
+            </tr>
+        </table></td>
+        <td width="8">&nbsp;</td>
+        <td width="562"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="50%" height="35"><table width="270" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="246" height="33" valign="bottom"><span class="STYLE30">热点专题</span></td>
+                  </tr>
+                  <tr>
+                    <td height="20"><table width="95%" height="2" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td width="27%" height="2" bgcolor="#074F8A"></td>
+                          <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                        </tr>
+                    </table></td>
+                  </tr>
+              </table></td>
+              <td width="50%"><table width="265" border="0" align="right" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="246" height="33" valign="bottom"><span class="STYLE30">新闻人物 </span></td>
+                  </tr>
+                  <tr>
+                    <td height="20"><table width="98%" height="2" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td width="35%" height="2" bgcolor="#074F8A"></td>
+                          <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                        </tr>
+                    </table></td>
+                  </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td width="50%" height="30" valign="middle"><table width="265" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="123" height="108" valign="top"><img src="iamge/SP-1.jpg" width="107" height="85" /></td>
+                  <td width="149" height="108" valign="top"><table width="95%" height="30" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededed">
+                      <tr>
+                        <td height="30"><div align="center"><span class="STYLE61">认清形势 坚定</span></div></td>
+                      </tr>
+                      <tr>
+                        <td height="25" bgcolor="#FFFFFF"><div align="center">网购将可7天内无理由</div></td>
+                      </tr>
+                      <tr>
+                        <td height="25" bgcolor="#FFFFFF"><div align="center">退货 3月15日起实施...</div></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td height="100" valign="top"><img src="iamge/SP-2.jpg" width="107" height="85" /></td>
+                  <td height="100" valign="top"><table width="95%" height="85" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededed">
+                      <tr>
+                        <td height="35"><div align="center" class="STYLE61">2013年冷链</div></td>
+                      </tr>
+                      <tr>
+                        <td height="25" bgcolor="#FFFFFF"><div align="center">网购将可7天内无理由</div></td>
+                      </tr>
+                      <tr>
+                        <td height="25" bgcolor="#FFFFFF"><div align="center">退货 3月15日起实施...</div></td>
+                      </tr>
+                  </table></td>
+                </tr>
+              </table></td>
+              <td width="50%" valign="top"><table width="265" border="0" align="right" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="123" height="108" valign="top"><img src="iamge/SP-1.jpg" width="107" height="85" /></td>
+                  <td width="149" height="108" valign="top"><table width="95%" height="30" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededed">
+                      <tr>
+                        <td height="30"><div align="center"><span class="STYLE61">认清形势 坚定</span></div></td>
+                      </tr>
+                      <tr>
+                        <td height="25" bgcolor="#FFFFFF"><div align="center">网购将可7天内无理由</div></td>
+                      </tr>
+                      <tr>
+                        <td height="25" bgcolor="#FFFFFF"><div align="center">退货 3月15日起实施...</div></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td height="100" valign="top"><img src="iamge/SP-2.jpg" width="107" height="85" /></td>
+                  <td height="100" valign="top"><table width="95%" height="85" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededed">
+                      <tr>
+                        <td height="35"><div align="center" class="STYLE61">2013年冷链</div></td>
+                      </tr>
+                      <tr>
+                        <td height="25" bgcolor="#FFFFFF"><div align="center">网购将可7天内无理由</div></td>
+                      </tr>
+                      <tr>
+                        <td height="25" bgcolor="#FFFFFF"><div align="center">退货 3月15日起实施...</div></td>
+                      </tr>
+                  </table></td>
+                </tr>
+              </table></td>
+            </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="372" height="60" bgcolor="#5F85AD"><div align="center" class="STYLE1"><span class="STYLE15">广告一</span></div></td>
+        <td width="24" height="60"><div align="center"><span class="STYLE1"></span></div></td>
+        <td width="266" height="60" bgcolor="#E94709"><div align="center" class="STYLE1"><span class="STYLE15">广告二</span></div></td>
+        <td width="23" height="60"><div align="center"><span class="STYLE1"></span></div></td>
+        <td width="275" height="60" bgcolor="#5F85AD"><div align="center" class="STYLE1"><span class="STYLE15">广告三</span></div></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="390" height="282" valign="top"><table width="380" border="0" align="left" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="33" valign="bottom"><span class="STYLE30">电商仓储 </span></td>
+            <td height="33" valign="bottom"><table width="100%" height="25" border="0" align="right" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="18%" height="25">订单</td>
+                  <td width="18%" height="25"> 库存</td>
+                  <td width="18%" height="25"> 调拨</td>
+                  <td width="25%" height="25"> 仓储部局</td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="19" colspan="2"><table width="98%" height="2" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="20%" height="2" bgcolor="#074F8A"></td>
+                  <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td width="50%" height="35"><span class="STYLE33"><strong>大画IT：移动即时通讯老二</strong></span></td>
+            <td width="50%" height="35"><span class="STYLE33"><strong>大画IT：移动即时通讯老二</strong></span></td>
+          </tr>
+          <tr>
+            <td width="50%" height="85"><table width="93%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="93" rowspan="3"><img src="iamge/1-15.gif" width="90" height="60" /></td>
+                  <td width="83" height="25">微信霸主宝座</td>
+                </tr>
+                <tr>
+                  <td height="25">江湖并不平静</td>
+                </tr>
+                <tr>
+                  <td height="25">电信的…<span class="STYLE14"> 详细</span></td>
+                </tr>
+            </table></td>
+            <td width="50%" height="85"><table width="93%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="93" rowspan="3"><img src="iamge/1-15.gif" width="90" height="60" /></td>
+                  <td width="83" height="25">微信霸主宝座</td>
+                </tr>
+                <tr>
+                  <td height="25">江湖并不平静</td>
+                </tr>
+                <tr>
+                  <td height="25">电信的…<span class="STYLE14"> 详细</span></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td width="50%" height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+            <td width="50%" height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+          </tr>
+          <tr>
+            <td height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+            <td height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+          </tr>
+          <tr>
+            <td height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+            <td height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+          </tr>
+        </table></td>
+        <td width="8" rowspan="2">&nbsp;</td>
+        <td width="562" rowspan="2" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="50%" height="35"><table width="270" border="0" align="left" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="246" height="33" valign="bottom"><span class="STYLE30"> 热点视频</span></td>
+                  </tr>
+                  <tr>
+                    <td height="20"><table width="95%" height="2" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td width="20%" height="2" bgcolor="#074F8A"></td>
+                          <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                        </tr>
+                    </table></td>
+                  </tr>
+              </table></td>
+              <td width="50%"><table width="265" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="246" height="33" valign="bottom"><span class="STYLE30">展 会 </span></td>
+                  </tr>
+                  <tr>
+                    <td height="20"><table width="95%" height="2" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td width="20%" height="2" bgcolor="#074F8A"></td>
+                          <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                        </tr>
+                    </table></td>
+                  </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td width="50%" valign="top"><table width="91%" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="110" height="86"><div align="center"><img src="iamge/1-13.gif" width="99" height="66" /></div></td>
+                  <td width="110" height="86"><div align="center"><img src="iamge/1-13.jpg" width="99" height="66" /></div></td>
+                  </tr>
+                <tr>
+                  <td width="110" height="50"> <div align="center">物流运力配载的革<br />
+                    新时代</div></td>
+                  <td width="110" height="50"> <div align="center">物流运力配载的革<br />
+                    新时代</div></td>
+                  </tr>
+                <tr>
+                  <td height="50" colspan="2"><table width="100%" border="0" cellspacing="3" cellpadding="0">
+                    <tr>
+                      <td height="30" bgcolor="#ededed"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> </span>浙江平阳加速推进“电商换市<span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> </span>浙江平阳加</td>
+                    </tr>
+                    <tr>
+                      <td height="30" bgcolor="#ededed"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> </span>浙江平阳加速推进“电商换市<span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> </span>浙江平阳加</td>
+                    </tr>
+                  </table></td>
+                  </tr>
+              </table>                </td>
+              <td width="50%" valign="top"><table width="95%" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="124"><div align="center"><img src="iamge/1-17.gif" width="115" height="100" /></div></td>
+                  <td height="124"><div align="center"><img src="iamge/1-18.gif" width="115" height="100" /></div></td>
+                </tr>
+                <tr>
+                  <td height="30" colspan="2"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 2014食品饮料创新论坛 </span></td>
+                </tr>
+                <tr>
+                  <td height="30" colspan="2"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 广州国际物流展</span></td>
+                </tr>
+                <tr>
+                  <td height="30" colspan="2"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 2014饮料峰会 </span></td>
+                </tr>
+              </table></td>
+            </tr>
+            
+            <tr>
+              <td height="70" valign="bottom"><table width="270" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="246" height="33" valign="bottom"><span class="STYLE30">会议</span></td>
+                </tr>
+                <tr>
+                  <td height="20"><table width="95%" height="2" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="20%" height="2" bgcolor="#074F8A"></td>
+                        <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                      </tr>
+                  </table></td>
+                </tr>
+              </table></td>
+              <td height="65" valign="bottom"><table width="265" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="246" height="33" valign="bottom"><span class="STYLE30">电子刊</span></td>
+                </tr>
+                <tr>
+                  <td height="20"><table width="95%" height="2" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="20%" height="2" bgcolor="#074F8A"></td>
+                        <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                      </tr>
+                  </table></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td height="15" valign="top"><table width="95%" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="70"><div align="center"><img src="iamge/1-16.gif" width="120" height="43" /></div></td>
+                  <td height="70"><div align="center"><img src="iamge/1-16.gif" width="120" height="43" /></div></td>
+                </tr>
+                <tr>
+                  <td height="35" colspan="2"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 2013中国跨境电商供应链峰会</span></td>
+                </tr>
+                <tr>
+                  <td height="35" colspan="2"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 第六届现代物流科技创新大会</span></td>
+                </tr>
+                <tr>
+                  <td height="35" colspan="2"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 第四届中国电子商务物流大会</span></td>
+                </tr>
+                <tr>
+                  <td height="35" colspan="2"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 2013危化品物流供应链峰会</span></td>
+                </tr>
+
+              </table></td>
+              <td valign="top"><table width="260" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="60"><div align="center"><img src="iamge/dzk.jpg" width="246" height="53" /></div></td>
+                </tr>
+                <tr>
+                  <td height="35"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 中国物流招标网电子刊第102期</span></td>
+                </tr>
+                <tr>
+                  <td height="35"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 中国物流招标网电子刊第101期</span></td>
+                </tr>
+                <tr>
+                  <td height="35"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 中国物流招标网电子刊第100期</span></td>
+                </tr>
+                <tr>
+                  <td height="35"><span class="STYLE33"><span class="STYLE1">&nbsp;&nbsp;</span><img src="iamge/dian.gif" width="3" height="6" /> 中国物流招标网电子刊第101期</span></td>
+                </tr>
+
+              </table></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="380" border="0" align="left" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="33" valign="bottom"><span class="STYLE30">运输配送 </span></td>
+            <td height="33" valign="bottom"><table width="100%" height="25" border="0" align="right" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="18%" height="25">干线</td>
+                  <td width="18%" height="25"> 快递 </td>
+                  <td width="18%" height="25"> COD </td>
+                  <td width="25%" height="25"> 社区物流</td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="19" colspan="2"><table width="98%" height="2" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="20%" height="2" bgcolor="#074F8A"></td>
+                  <td width="64%" height="2" bgcolor="#ABABAB"></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td width="50%" height="35"><span class="STYLE33"><strong>大画IT：移动即时通讯老二</strong></span></td>
+            <td width="50%" height="35"><span class="STYLE33"><strong>大画IT：移动即时通讯老二</strong></span></td>
+          </tr>
+          <tr>
+            <td width="50%" height="85"><table width="93%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="93" rowspan="3"><img src="iamge/1-15.gif" width="90" height="60" /></td>
+                  <td width="83" height="25">微信霸主宝座</td>
+                </tr>
+                <tr>
+                  <td height="25">江湖并不平静</td>
+                </tr>
+                <tr>
+                  <td height="25">电信的…<span class="STYLE14"> 详细</span></td>
+                </tr>
+            </table></td>
+            <td width="50%" height="85"><table width="93%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="93" rowspan="3"><img src="iamge/1-15.gif" width="90" height="60" /></td>
+                  <td width="83" height="25">微信霸主宝座</td>
+                </tr>
+                <tr>
+                  <td height="25">江湖并不平静</td>
+                </tr>
+                <tr>
+                  <td height="25">电信的…<span class="STYLE14"> 详细</span></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td width="50%" height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+            <td width="50%" height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+          </tr>
+          <tr>
+            <td height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+            <td height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+          </tr>
+          <tr>
+            <td height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+            <td height="30" valign="bottom"><span class="STYLE33"><img src="iamge/dian.gif" width="3" height="6" /> 浙江平阳加速推进“电商换</span></td>
+          </tr>
+        </table></td>
+      </tr>
+      
+    </table></td>
+  </tr>
+  <tr>
+    <td height="90"><table width="960" height="65" border="0" align="center" cellpadding="0" cellspacing="0" style="border-top:#DADBDC 1px solid; border-right:#DADBDC 1px solid; border-bottom:#DADBDC 1px solid; border-left:#DADBDC 1px solid">
+      <tr>
+        <td width="89" height="30" align="right" valign="bottom"><div align="center" class="STYLE26">政府协会：</div></td>
+        <td width="865" height="30" align="left" valign="bottom" class="STYLE62">发改委   &nbsp;&nbsp;&nbsp;商务部   &nbsp;&nbsp;&nbsp;交通运输部   &nbsp;&nbsp;&nbsp;铁道部   &nbsp;&nbsp;&nbsp;邮政总局   &nbsp;&nbsp;&nbsp;民航总局&nbsp;&nbsp;&nbsp;    海关总局&nbsp;&nbsp;&nbsp;    中国物流与采购联合会&nbsp;&nbsp;&nbsp;   中国物流信息中心&nbsp;&nbsp;&nbsp;   中国仓储协会</td>
+      </tr>
+      <tr>
+        <td height="30" align="right"><div align="center" class="STYLE26">友情链接：</div></td>
+        <td height="35" align="left"><span class="STYLE62">中国冷链产业网   &nbsp;&nbsp;中国智慧物流网   &nbsp;&nbsp;中国建材网   &nbsp;&nbsp;中国工程招标网   &nbsp;&nbsp;中国食品科技网   &nbsp;&nbsp;零售网   &nbsp;&nbsp;食品商贸网   &nbsp;&nbsp;中国自动化网   &nbsp;&nbsp;中国物资采购网   &nbsp;&nbsp;中国钢铁现货网</span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="260" bgcolor="#30373f"><table width="60%" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="4%" height="25">&nbsp;</td>
+        <td width="24%" height="35"><span class="STYLE18">中心介绍 </span></td>
+        <td width="24%" height="25"><span class="STYLE1"></span></td>
+        <td width="24%" height="25"><span class="STYLE1"></span></td>
+        <td width="24%" height="25"><span class="STYLE1"></span></td>
+      </tr>
+      <tr>
+        <td width="4%" height="25">&nbsp;</td>
+        <td width="24%" height="25"><span class="STYLE1">行业政策</span></td>
+        <td width="24%" height="25"><span class="STYLE1">热点视频 </span></td>
+        <td width="24%"><span class="STYLE1">库存调拨</span></td>
+        <td width="24%" height="25"><span class="STYLE1"> 快递</span></td>
+      </tr>
+      <tr>
+        <td width="4%" height="25">&nbsp;</td>
+        <td width="24%" height="25"><span class="STYLE1">电商业态</span></td>
+        <td width="24%" height="25"><span class="STYLE1">B2B</span></td>
+        <td width="24%"><span class="STYLE1">仓储部局 </span></td>
+        <td width="24%" height="25"><span class="STYLE1">COD </span></td>
+      </tr>
+      <tr>
+        <td width="4%" height="25">&nbsp;</td>
+        <td width="24%" height="25"><span class="STYLE1">品牌会议</span></td>
+        <td width="24%" height="25"><span class="STYLE1"> B2C</span></td>
+        <td width="24%"><span class="STYLE1">传统电商 </span></td>
+        <td width="24%" height="25"><span class="STYLE1">社区物流</span></td>
+      </tr>
+      <tr>
+        <td width="4%" height="25">&nbsp;</td>
+        <td width="24%" height="25"><span class="STYLE1">热点专题</span></td>
+        <td width="24%" height="25"><span class="STYLE1">C2C</span></td>
+        <td width="24%"><span class="STYLE1">电商仓储</span></td>
+        <td width="24%" height="25"><span class="STYLE1"> 新闻人物</span></td>
+      </tr>
+      <tr>
+        <td width="4%" height="25">&nbsp;</td>
+        <td width="24%" height="25"><span class="STYLE1">精品推荐</span></td>
+        <td width="24%" height="25"><span class="STYLE1">O2O </span></td>
+        <td width="24%"><span class="STYLE1">订单</span></td>
+        <td width="24%" height="25"><span class="STYLE1"></span></td>
+      </tr>
+      <tr>
+        <td width="4%" height="25">&nbsp;</td>
+        <td width="24%" height="25"><span class="STYLE1">电子刊</span></td>
+        <td width="24%" height="25"><span class="STYLE1"> 跨境电商</span></td>
+        <td width="24%"><span class="STYLE1">库存</span></td>
+        <td width="24%" height="25"><span class="STYLE1"></span></td>
+      </tr>
+      <tr>
+        <td width="4%" height="25">&nbsp;</td>
+        <td width="24%" height="25"><span class="STYLE1"> 展会</span></td>
+        <td width="24%" height="25"><span class="STYLE1"> 生鲜电商</span></td>
+        <td width="24%"><span class="STYLE1">运输配送</span></td>
+        <td width="24%" height="25"><span class="STYLE1"></span></td>
+      </tr>
+      <tr>
+        <td width="4%" height="25"><span class="STYLE1"></span></td>
+        <td width="27%" height="25"><span class="STYLE1"></span></td>
+        <td width="23%" height="25"><span class="STYLE1"> 移动电商 </span></td>
+        <td width="23%"><span class="STYLE1"> 干线 </span></td>
+        <td width="23%" height="25"><span class="STYLE1"></span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="50" bgcolor="#06203C"><table width="945" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="67%" height="30"><div align="left" class="STYLE1">中国电商物流研究中心 版权所有   京ICP备08009837号,京公网安备110105003541</div></td>
+        <td width="33%" height="30"><div align="right"><span class="STYLE20">关于我们 | 联系我们 | 法律声明 | 网站地图 | 友情链接</span></div></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2014/1218/25277211.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(214,'','天津金耀物流有限公司')\"  />");

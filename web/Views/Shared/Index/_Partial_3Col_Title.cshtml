@@ -1,0 +1,45 @@
+﻿@model    List<LL.Model.News.phome_ecms_news>
+             
+
+<style>
+    .hangye .ftitle a {
+        font-size: 16px;
+        font-weight:normal;
+    }
+    </style>
+
+<ul>
+
+
+    @{  /*改来该去-v3,改成 列表形式*/
+       var count=  Model.Count()>=5?5:Model.Count();
+        
+        for (int i = 0; i <count; i++)
+     {
+         var item = Model[i];
+         var css = "ftitle ";
+           /*var seq = "s" + i % 2;
+         var css = "stitle ";
+         if (i % 4 == 0)
+         {
+
+             css = "ftitle ";
+         }
+         else
+         {
+             css += seq;
+         }
+            * */
+        <li class="@css">@Html.ActionLinkArticleDetails(item)</li>
+
+     }
+    }
+
+
+
+
+
+</ul>
+
+
+

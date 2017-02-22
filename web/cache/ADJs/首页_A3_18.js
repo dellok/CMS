@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0130/65253204.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(219,'http://www.szrisun.net','深圳市锐迅供应链管理有限公司')\"  />");

@@ -1,0 +1,33 @@
+﻿@model  List<phome_ecms_news>[]
+@{
+    List<phome_ecms_news> arrpic = (List<phome_ecms_news>)Model[0];
+    List<phome_ecms_news> titles = (List<phome_ecms_news>)Model[1];
+    }
+
+<ul class="imglist">
+
+    @for (int i = 0; i < arrpic.Count; i++)
+    {
+        var item = arrpic[i];
+        var img = string.Format("<img src=\"{0}\" alt=\"{1}\"/>", item.titlepic, item.title);
+        <li  class="img_@i">
+            @Html.ActionLinkArticleDetails(img, item)
+            <p>@Html.ActionLinkArticleDetails(item)</p>
+        </li>
+        
+        i++;
+    }
+</ul>
+
+<ul class="titlelist">
+    @for (int i = 0; i < titles.Count; i++)
+    {
+        var item = titles[i];
+      
+        <li  class="l_@i%2">
+            @Html.ActionLinkArticleDetails(item)
+        </li>
+        
+    }
+
+</ul>

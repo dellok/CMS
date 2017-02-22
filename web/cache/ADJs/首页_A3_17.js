@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0130/41908494.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(218,'http://www.crlg.com/','中铁物流集团有限公司')\"  />");

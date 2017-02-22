@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0306/58201375.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(146,'','广州富力国际空港综合物流园有限公司')\"  />");

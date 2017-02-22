@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2014/1229/21797718.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(198,'http://www.foton.com.cn/','北汽福田汽车股份有限公司')\"  />");

@@ -1,0 +1,84 @@
+﻿@model List<phome_ecms_news>
+
+
+@{
+     
+    string w = "490";
+    string  h ="294";
+
+    if (ViewData["width"]!=null)
+	{
+         
+        w=Format.DataConvertToString( ViewData["width"]);
+        		 
+	}
+    
+       if (ViewData["height"]!=null)
+	{
+         
+        h=Format.DataConvertToString( ViewData["height"]);
+        		 
+	}
+    
+   
+   
+}
+
+
+
+
+<style>
+
+    .mF_YSlider_wrap {
+         width:490px;
+    height:294px;
+    }
+
+    .mF_YSlider div.txt {
+         float:none;
+          }
+
+
+</style>
+
+
+<script src="/Scripts/myfocus/myfocus-2.0.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    myFocus.set({
+        id: 'mF_YSlider',//焦点图盒子ID
+        pattern: 'mF_YSlider',//风格应用的名称
+        time: 3,//切换时间间隔(秒)
+        trigger: 'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+        width: @w,//设置图片区域宽度(像素)
+        height: @h,//设置图片区域高度(像素)
+        txtHeight: '50'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+    });
+</script>
+
+
+<div id="mF_YSlider" class="mF_YSlider">
+    <!--焦点图盒子-->
+    <div class="loading">
+        <img src="/images/loading.gif" alt="请稍候..." />
+    </div>
+    <!--载入画面(可删除)-->
+    <div class="pic">
+        <!--内容列表(li数目可随意增减)-->
+        <ul>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+
+                var item = Model[i];
+                var parm = item.id;
+                var url = string.IsNullOrEmpty(item.titleurl) ? string.Format("/articles/{0}", parm) : item.titleurl;
+
+                <li><a  href="@url"><img src="@item.titlepic" alt="@item.title" text="@item.title" class="sliderimg" /></a></li>
+            }
+
+        </ul>
+    </div>
+</div>
+
+
+
+

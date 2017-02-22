@@ -1,0 +1,35 @@
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\Project.Common\bin\Debug\Project.Common.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\Project.Common\bin\Debug\Project.Common.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\Project.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\Project.Common\obj\Debug\Project.Common.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\Project.Common\obj\Debug\Project.Common.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\Project.Common\bin\Debug\Project.Common.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\Project.Common\bin\Debug\Project.Common.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\Project.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\liot.org.cn\lenglian.org.cn\Project.Common\obj\Debug\Project.Common.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\Project.Common\obj\Debug\Project.Common.pdb
+E:\Projects\liot.org.cn\Project.Common\bin\Debug\Project.Common.dll
+E:\Projects\liot.org.cn\Project.Common\bin\Debug\Project.Common.pdb
+E:\Projects\liot.org.cn\Project.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\liot.org.cn\Project.Common\obj\Debug\Project.Common.dll
+E:\Projects\liot.org.cn\Project.Common\obj\Debug\Project.Common.pdb
+E:\project\liot.org.cn\Project.Common\bin\Debug\Project.Common.dll
+E:\project\liot.org.cn\Project.Common\bin\Debug\Project.Common.pdb
+E:\project\liot.org.cn\Project.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\project\liot.org.cn\Project.Common\obj\Debug\Project.Common.dll
+E:\project\liot.org.cn\Project.Common\obj\Debug\Project.Common.pdb
+E:\project\ect.org.cn\Project.Common\bin\Debug\Project.Common.dll
+E:\project\ect.org.cn\Project.Common\bin\Debug\Project.Common.pdb
+E:\project\ect.org.cn\Project.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\project\ect.org.cn\Project.Common\obj\Debug\Project.Common.dll
+E:\project\ect.org.cn\Project.Common\obj\Debug\Project.Common.pdb
+E:\project\ecl.org.cn\Project.Common\bin\Debug\Project.Common.dll
+E:\project\ecl.org.cn\Project.Common\bin\Debug\Project.Common.pdb
+E:\project\ecl.org.cn\Project.Common\obj\Debug\Project.Common.dll
+E:\project\ecl.org.cn\Project.Common\obj\Debug\Project.Common.pdb
+E:\project\ecl.org.cn\Project.Common\obj\Debug\Project.Common.csprojResolveAssemblyReference.cache
+E:\project\cpl.org.cn\Project.Common\bin\Debug\Project.Common.dll
+E:\project\cpl.org.cn\Project.Common\bin\Debug\Project.Common.pdb
+E:\project\cpl.org.cn\Project.Common\obj\Debug\Project.Common.csprojResolveAssemblyReference.cache
+E:\project\cpl.org.cn\Project.Common\obj\Debug\Project.Common.dll
+E:\project\cpl.org.cn\Project.Common\obj\Debug\Project.Common.pdb

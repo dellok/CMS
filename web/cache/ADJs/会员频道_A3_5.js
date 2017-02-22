@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.liot.org.cn/up/ad/2013/A3-1.gif\"  style=\"width:309px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(171,'#','no')\"  />");

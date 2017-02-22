@@ -1,0 +1,10 @@
+E:\project\ecl.org.cn\Project.Common\bin\Release\Project.Common.dll
+E:\project\ecl.org.cn\Project.Common\bin\Release\Project.Common.pdb
+E:\project\ecl.org.cn\Project.Common\obj\Release\Project.Common.csprojResolveAssemblyReference.cache
+E:\project\ecl.org.cn\Project.Common\obj\Release\Project.Common.dll
+E:\project\ecl.org.cn\Project.Common\obj\Release\Project.Common.pdb
+E:\project\cpl.org.cn\Project.Common\bin\Release\Project.Common.dll
+E:\project\cpl.org.cn\Project.Common\bin\Release\Project.Common.pdb
+E:\project\cpl.org.cn\Project.Common\obj\Release\Project.Common.dll
+E:\project\cpl.org.cn\Project.Common\obj\Release\Project.Common.pdb
+E:\project\cpl.org.cn\Project.Common\obj\Release\Project.Common.csprojResolveAssemblyReference.cache

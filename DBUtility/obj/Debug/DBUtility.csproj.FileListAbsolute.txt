@@ -1,0 +1,35 @@
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\DBUtility\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\DBUtility\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\DBUtility\obj\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\lenglian.org.cn\DBUtility\obj\Debug\DBUtility.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\DBUtility\bin\Debug\DBUtility.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\DBUtility\bin\Debug\DBUtility.pdb
+E:\Projects\liot.org.cn\lenglian.org.cn\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\liot.org.cn\lenglian.org.cn\DBUtility\obj\Debug\DBUtility.dll
+E:\Projects\liot.org.cn\lenglian.org.cn\DBUtility\obj\Debug\DBUtility.pdb
+E:\Projects\liot.org.cn\DBUtility\bin\Debug\DBUtility.dll
+E:\Projects\liot.org.cn\DBUtility\bin\Debug\DBUtility.pdb
+E:\Projects\liot.org.cn\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\liot.org.cn\DBUtility\obj\Debug\DBUtility.dll
+E:\Projects\liot.org.cn\DBUtility\obj\Debug\DBUtility.pdb
+E:\project\liot.org.cn\DBUtility\bin\Debug\DBUtility.dll
+E:\project\liot.org.cn\DBUtility\bin\Debug\DBUtility.pdb
+E:\project\liot.org.cn\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\project\liot.org.cn\DBUtility\obj\Debug\DBUtility.dll
+E:\project\liot.org.cn\DBUtility\obj\Debug\DBUtility.pdb
+E:\project\ect.org.cn\DBUtility\bin\Debug\DBUtility.dll
+E:\project\ect.org.cn\DBUtility\bin\Debug\DBUtility.pdb
+E:\project\ect.org.cn\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\project\ect.org.cn\DBUtility\obj\Debug\DBUtility.dll
+E:\project\ect.org.cn\DBUtility\obj\Debug\DBUtility.pdb
+E:\project\ecl.org.cn\DBUtility\bin\Debug\DBUtility.dll
+E:\project\ecl.org.cn\DBUtility\bin\Debug\DBUtility.pdb
+E:\project\ecl.org.cn\DBUtility\obj\Debug\DBUtility.dll
+E:\project\ecl.org.cn\DBUtility\obj\Debug\DBUtility.pdb
+E:\project\ecl.org.cn\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+E:\project\cpl.org.cn\DBUtility\bin\Debug\DBUtility.dll
+E:\project\cpl.org.cn\DBUtility\bin\Debug\DBUtility.pdb
+E:\project\cpl.org.cn\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+E:\project\cpl.org.cn\DBUtility\obj\Debug\DBUtility.dll
+E:\project\cpl.org.cn\DBUtility\obj\Debug\DBUtility.pdb

@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.liot.org.cn/up/AD/2013/0523/8637076.gif\"  style=\"\" onclick=\"javascript:ADClass.ADHit2(197,'http://iotexpo.rfidchina.org/2013.html','2013中国国际物联网博览会')\"  />");

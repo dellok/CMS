@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2014/1219/60232767.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(144,'http://www.ytyywl.com/','浙江英特物流有限公司')\"  />");

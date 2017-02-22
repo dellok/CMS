@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0206/9535544.jpg\"  style=\"width:309px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(229,'http://www.shaphar.com','上海医药物流中心有限公司')\"  />");

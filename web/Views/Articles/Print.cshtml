@@ -1,0 +1,74 @@
+﻿@model    phome_ecms_news
+@{
+      
+    Layout = "";
+    phome_ecms_news detailArticle = (phome_ecms_news)Model;
+
+
+}
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>@detailArticle.title</title>
+    <meta name="Author" content="@PubConstant.DomainName">
+    <meta name="Keywords" content="@detailArticle.keyboard">
+    <meta name="Description" content="@detailArticle.smalltext">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+            body
+        {
+            font-family: 宋体;
+            width:900px;
+            margin:0 auto;
+            line-height:170%;
+        }
+        nav
+        {text-align:right;
+        }
+        h2
+        {
+        text-align:center;
+        }
+        .f12
+        {
+            font-size: 12px;
+        }
+        .f24
+        {
+            font-size: 24px;
+        }
+        .f14
+        {
+            font-size: 14px;
+        }
+        .title14
+        {
+            font-size: 14px;
+            line-height: 130%;
+        }
+        .l17
+        {
+            line-height: 170%;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <nav> <a href='javascript:history.back()'>返回</a> <a href='javascript:window.print()'>打印</a></nav>
+    <article>
+        <h2  class="f24">      <font color="#05006c">@detailArticle.title</font></h2>
+        <hr size="1" bgcolor="#d9d9d9">
+        <nav> @detailArticle.writer &nbsp;&nbsp; @PubConstant.DomainName     &nbsp;&nbsp;@detailArticle.newstime.ToShortDateString()&nbsp;&nbsp;</nav>
+
+        <p class="f14  l17"> @Html.Raw(@detailArticle.newstext)</p>
+       
+    </article>
+    <address>
+
+      @Request.Url
+    </address>
+</body>
+</html>

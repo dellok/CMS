@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="8b0fd0c9-0d31-4d17-ad42-8303fcc2f4b7" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="d4f3f618-3f67-4ab1-99bf-e33aff3d7a17" name="Database Layer">
+      <references>
+        <reference Id="2b1de1cc-acff-4af6-b757-521ba64dfd73" name="LayeredSolution1.DBL">
+          <ArtifactNode Label="LayeredSolution1.DBL" Category="CodeSchema_Project" Id="(Assembly=../LayeredSolution1.DBL/LayeredSolution1.DBL.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=LayeredSolution1.DBL)" Label="LayeredSolution1.DBL.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="4721d8e7-d83c-44ce-b216-ec56180e7f88" name="Business Layer">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="2a7cea9e-e6f8-49bf-9cd1-74242c3744e9" direction="Forward">
+          <layerMoniker Id="d4f3f618-3f67-4ab1-99bf-e33aff3d7a17" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="2e60d774-61f2-46de-aaaa-69543ccf3c79" name="LayeredSolution1.BL">
+          <ArtifactNode Label="LayeredSolution1.BL" Category="CodeSchema_Project" Id="(Assembly=../LayeredSolution1.BL/LayeredSolution1.BL.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=LayeredSolution1.BL)" Label="LayeredSolution1.BL.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="bb8bdd94-7742-479e-8b7f-9401a09ac2a7" name="Service Layer">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="c5ed1e13-7dbc-424e-8220-657dfd6d1bca" direction="Forward">
+          <layerMoniker Id="4721d8e7-d83c-44ce-b216-ec56180e7f88" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="0ac4694d-bba6-4825-ad4e-9ae85ab47a02" name="LayeredSolution1.SL">
+          <ArtifactNode Label="LayeredSolution1.SL" Category="CodeSchema_Project" Id="(Assembly=../LayeredSolution1.SL/LayeredSolution1.SL.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=LayeredSolution1.SL)" Label="LayeredSolution1.SL.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

@@ -1,0 +1,11 @@
+﻿@{ phome_ecms_news detailArticle = (phome_ecms_news)Model;}
+@{
+    var t = "关于我们";
+    ViewBag.Title = LL.Common.PubConstant.DomainName + t;
+    ViewBag.NavTitle = t;
+    ViewBag.Description = detailArticle.smalltext;
+    Layout = "~/Views/Shared/_US_Layout.cshtml";
+}
+
+
+@Html.Raw(detailArticle.newstext)

@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0206/9841225.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(227,'http://www.htkj.com.cn','厦门浩添冷链科技有限公司')\"  />");

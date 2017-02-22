@@ -1,0 +1,22 @@
+﻿@model   List<phome_ecms_news>
+
+ <ul>
+    @for (int i = 0; i < Model.Count(); i++)
+    {
+        var item = Model[i];
+       
+        if (i==0)
+        {      
+              var  pictitle=string.Format("<img  src=\"{0}\" alt=\"{1}\"/>",item.titlepic,item.title);
+               <li class="pic"> @Html.ActionLinkArticleDetails(pictitle,item)</li>
+               <li class="pic_title s16"><b>@Html.ActionLinkArticleDetails(item)</b></li>
+               <li class="pic_intro">@Html.ActionLinkArticleDetails(@item.smalltext,item)</li>
+        }
+        else{
+
+           var css ="title"+i % 2;
+         <li class="@css">@Html.ActionLinkArticleDetails(item)</li>
+       }
+
+      }
+</ul>

@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{812FBF95-5E0C-438B-AD42-4B7B6260135E}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>web</RootNamespace>
+    <AssemblyName>web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MiniProfiler">
+      <HintPath>..\packages\MiniProfiler.2.1.0\lib\net40\MiniProfiler.dll</HintPath>
+    </Reference>
+    <Reference Include="RouteDebugger, Version=2.1.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\routedebugger.2.1.5\lib\net40\RouteDebugger.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.20710.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.0.3.12153\lib\net40-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\PubConst.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ADController.cs" />
+    <Compile Include="Controllers\ArticlesController.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\ErrorPageController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HYPXController.cs" />
+    <Compile Include="Controllers\PeiXunController.cs" />
+    <Compile Include="Controllers\WorkgroupController.cs" />
+    <Compile Include="Controllers\MemberController.cs" />
+    <Compile Include="Controllers\UsController.cs" />
+    <Compile Include="Controllers\ZhanHuiController.cs" />
+    <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Extensions\HtmlHelperExtensions.cs" />
+    <Compile Include="Models\TitleBlock.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2017\培训页 布局.html" />
+    <Content Include="2017\频道专题开发\peixun\image\001.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\1-1.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\210-156-1.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\210-156-2.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\210-156-3.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\bj-4.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\bj.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\bj2.gif" />
+    <Content Include="2017\频道专题开发\peixun\image\daohang-1.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\daohang-2.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\daohang.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\denglu.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\ditu.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\end.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\erweima.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\gundong.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\kecheng-1.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\logo.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\right-1.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\right-11.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\right-2.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\right-22.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\sousuo.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\tiao-1.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\tiao-2.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\tiao.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\Tu-1.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\xian-bj.jpg" />
+    <Content Include="2017\频道专题开发\peixun\image\xiaotu-1.jpg" />
+    <Content Include="2017\频道专题开发\peixun\index.html" />
+    <Content Include="2017\频道专题开发\peixun\neirong.html" />
+    <Content Include="App_Data\AspNetPager.xml" />
+    <Content Include="App_Data\config\appSettings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\config\connectionStrings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="cache\ADJs\文章列表页_A1_1.js" />
+    <Content Include="cache\ADJs\文章列表页_A1_2.js" />
+    <Content Include="cache\ADJs\文章详细页_A2_1.js" />
+    <Content Include="cache\ADJs\文章详细页_A1_1.js" />
+    <Content Include="cache\ADJs\首页_A1_1.js" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap\3.3.7\bootstrap.min.css" />
+    <Content Include="Content\bootstrap\3.3.7\bootstrap.min.js" />
+    <Content Include="Content\pager.css" />
+    <Content Include="Content\peixun.css" />
+    <Content Include="Content\slide.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Global.asax" />
+    <None Include="Properties\PublishProfiles\eclconfig.pubxml" />
+    <Content Include="Images\bj-1.gif" />
+    <Content Include="Images\cpl_intro_d1.jpg" />
+    <Content Include="Images\cpl_intro_d2.jpg" />
+    <Content Include="Images\cpl_intro_end.jpg" />
+    <Content Include="Images\dian.gif" />
+    <Content Include="Images\ditu.jpg" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\LOGO.jpg" />
+    <Content Include="Images\main_nav_split.jpg" />
+    <Content Include="Images\member\bj.jpg" />
+    <Content Include="Images\member\right.jpg" />
+    <Content Include="Images\member\workgroup-right.jpg" />
+    <Content Include="Images\page_next.gif" />
+    <Content Include="Images\page_pre.gif" />
+    <Content Include="Images\titlebar-arrow-peixun.jpg" />
+    <Content Include="Images\unknown-lesson.jpg" />
+    <Content Include="Images\us\us_nav_bg-128.jpg" />
+    <Content Include="Images\us\us_nav_bg.jpg" />
+    <Content Include="Images\us\us_nav_bg.png" />
+    <Content Include="plugin\bootstrap\3.3.7\bootstrap.css" />
+    <Content Include="plugin\bootstrap\3.3.7\bootstrap.js" />
+    <Content Include="plugin\bootstrap\3.3.7\bootstrap.min.css" />
+    <Content Include="plugin\bootstrap\3.3.7\bootstrap.min.js" />
+    <Content Include="Scripts\common.js" />
+    <None Include="Scripts\jquery\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery\jquery.KinSlideshow-1.2.1.min.js" />
+    <Content Include="Scripts\jquery\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery\jquery.SuperSlide.js" />
+    <None Include="Scripts\jquery\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery\jquery-ui-1.8.20.js" />
+    <Content Include="Scripts\jquery\jquery-ui-1.8.20.min.js" />
+    <Content Include="Scripts\jquery\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery\jquery.validate.js" />
+    <Content Include="Scripts\jquery\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\play.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\tit-ar.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\btn-blue.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\btn-gray.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\btn-bg.png" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\btn-red.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_games_tb\ar.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\dots.png" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\slider-arrows.png" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\ar-left.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\ar-right.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\tit-ar.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\btn.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\turn.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\bg.jpg" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\loading.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_sohusports\sh-btn.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_taobaomall\btn-bg2.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_tbhuabao\btn-bg.gif" />
+    <Content Include="Scripts\myfocus\mf-pattern\mF_51xflash.css" />
+    <Content Include="Scripts\myfocus\mf-pattern\mF_YSlider.css" />
+    <Content Include="Scripts\myfocus\mf-pattern\mF_YSlider.js" />
+    <Content Include="Scripts\myfocus\mF_YSlider.css" />
+    <Content Include="Scripts\myfocus\myfocus-2.0.1.min.js" />
+    <Content Include="Scripts\back-common.js" />
+    <Content Include="Views\Category\CategoryName.cshtml" />
+    <Content Include="Scripts\myfocus\mf-pattern\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\.svn\text-base\mF_YSlider.css.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\.svn\text-base\mF_YSlider.js.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\prop-base\play.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\prop-base\Thumbs.db.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\prop-base\tit-ar.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\text-base\play.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\text-base\Thumbs.db.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\text-base\tit-ar.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\Thumbs.db" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\.svn\prop-base\btn-blue.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\.svn\prop-base\btn-gray.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\.svn\text-base\btn-blue.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\.svn\text-base\btn-gray.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\.svn\prop-base\btn-bg.png.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\.svn\prop-base\btn-red.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\.svn\text-base\btn-bg.png.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\.svn\text-base\btn-red.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_games_tb\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_games_tb\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_games_tb\.svn\prop-base\ar.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_games_tb\.svn\text-base\ar.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\prop-base\dots.png.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\prop-base\slider-arrows.png.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\prop-base\Thumbs.db.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\text-base\dots.png.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\text-base\slider-arrows.png.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\text-base\Thumbs.db.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kdui\Thumbs.db" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\prop-base\ar-left.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\prop-base\ar-right.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\prop-base\Thumbs.db.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\prop-base\tit-ar.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\text-base\ar-left.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\text-base\ar-right.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\text-base\Thumbs.db.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\text-base\tit-ar.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_kiki\Thumbs.db" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\.svn\prop-base\btn.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\.svn\prop-base\turn.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\.svn\text-base\btn.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\.svn\text-base\turn.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\.svn\prop-base\bg.jpg.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\.svn\prop-base\loading.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\.svn\text-base\bg.jpg.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\.svn\text-base\loading.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_sohusports\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_sohusports\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_sohusports\.svn\prop-base\sh-btn.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_sohusports\.svn\text-base\sh-btn.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_taobaomall\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_taobaomall\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_taobaomall\.svn\prop-base\btn-bg2.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_taobaomall\.svn\text-base\btn-bg2.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_tbhuabao\.svn\all-wcprops" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_tbhuabao\.svn\entries" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_tbhuabao\.svn\prop-base\btn-bg.gif.svn-base" />
+    <Content Include="Scripts\myfocus\mf-pattern\img\mF_tbhuabao\.svn\text-base\btn-bg.gif.svn-base" />
+    <Content Include="Views\Articles\Details.cshtml" />
+    <Content Include="Views\Category\CategoryUrlPath.cshtml" />
+    <Content Include="Views\HYPX\index.html" />
+    <Content Include="Views\Shared\ADJs.cshtml" />
+    <Content Include="Views\Articles\ArticlesBlock.cshtml" />
+    <Content Include="Views\Articles\Print.cshtml" />
+    <Content Include="Views\Articles\List.cshtml" />
+    <Content Include="Views\Articles\Lost.cshtml" />
+    <Content Include="Views\ZhanHui\index.cshtml" />
+    <Content Include="Views\Shared\Articles\List.cshtml" />
+    <Content Include="Views\Member\Index.cshtml" />
+    <Content Include="Views\HYPX\index.cshtml" />
+    <Content Include="Views\ErrorPage\Index.cshtml" />
+    <None Include="Views\Member\Details.cshtml" />
+    <Content Include="Views\Member\List.cshtml" />
+    <Content Include="Views\peixun\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout_Base.cshtml" />
+    <Content Include="Views\Shared\header-content.cshtml" />
+    <None Include="Views\Shared\Inc\footer.cshtml" />
+    <Content Include="Views\Shared\Inc\footer-channel.cshtml" />
+    <None Include="Views\Shared\Inc\header.cshtml" />
+    <None Include="Views\Shared\Inc\link.cshtml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\Index\_Partial_3Col_Title.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\Shared\Index\_LayoutIndex.cshtml" />
+    <Content Include="Views\Shared\Index\_Partial_Slider.cshtml" />
+    <Content Include="Views\Shared\Index\_Partial_TitleBlock.cshtml" />
+    <Content Include="Views\Shared\Index\_Partial_ClassNameTitleList.cshtml" />
+    <Content Include="Views\Shared\Index\_Partial_BigPicNews.cshtml" />
+    <Content Include="Views\Shared\Index\_Partial_PicListAndTitleList.cshtml" />
+    <Content Include="Views\Shared\Index\_Partial_PicTitle.cshtml" />
+    <Content Include="Views\Shared\Index\_Partial_NavTitleBox.cshtml" />
+    <Content Include="Views\Shared\Index\Partial_PicTitleAndList.cshtml" />
+    <Content Include="Views\Shared\Index\Partial_PicListAndTitleList.2.cshtml" />
+    <Content Include="Views\Shared\Index\_Partial_PicListAndTitleList2.cshtml" />
+    <Content Include="Views\Shared\Index\Partial_Video_PicListAndTitleList.cshtml" />
+    <Content Include="Views\Shared\Pager.cshtml" />
+    <None Include="Views\Shared\Index\ad2.cshtml" />
+    <Content Include="Views\Shared\zhanhui\_tuijian.cshtml" />
+    <Content Include="Views\Shared\zhanhui\_TitleList.cshtml" />
+    <Content Include="Views\Shared\_TitleList.cshtml" />
+    <Content Include="Views\Shared\Index\ad3.cshtml" />
+    <Content Include="Views\Shared\Index\ad4.cshtml" />
+    <Content Include="Views\Shared\_US_Layout.cshtml" />
+    <Content Include="Views\us\about.cshtml" />
+    <Content Include="Views\us\contact.cshtml" />
+    <Content Include="Views\us\law.cshtml" />
+    <Content Include="Views\Shared\Index\ad5.cshtml" />
+    <Content Include="Views\Shared\_Member_Layout.cshtml" />
+    <Content Include="Views\Shared\Articles\Detail.cshtml" />
+    <Content Include="Views\Shared\Partial_Articles_List.cshtml" />
+    <Content Include="Views\Shared\Member\Member_Level.cshtml" />
+    <Content Include="Views\Shared\_Workgroup_Layout.cshtml" />
+    <Content Include="Views\Workgroup\Details.cshtml" />
+    <Content Include="Views\Workgroup\Index.cshtml" />
+    <Content Include="Views\Workgroup\List.cshtml" />
+    <Content Include="Views\Workgroup\Workgroup_Level.cshtml" />
+    <Content Include="Views\Shared\_Layout_channel.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\myfocus\mf-pattern\.svn\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\.svn\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\.svn\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_51xflash\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_classicHB\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_classicHC\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_games_tb\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_games_tb\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_games_tb\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_games_tb\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_kdui\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_kiki\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_pithy_tb\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_qiyi\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_sohusports\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_sohusports\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_sohusports\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_sohusports\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_taobaomall\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_taobaomall\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_taobaomall\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_taobaomall\.svn\tmp\text-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_tbhuabao\.svn\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_tbhuabao\.svn\tmp\prop-base\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_tbhuabao\.svn\tmp\props\" />
+    <Folder Include="Scripts\myfocus\mf-pattern\img\mF_tbhuabao\.svn\tmp\text-base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{37c284c4-9808-4496-807c-567e13114e37}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.BLL\LL.BLL.csproj">
+      <Project>{136c3119-5919-444a-8efb-5c1400d67504}</Project>
+      <Name>LL.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.Common\LL.Common.csproj">
+      <Project>{68de19b8-14f5-42bc-bc5b-cbc8567e32eb}</Project>
+      <Name>LL.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.DAL\LL.DAL.csproj">
+      <Project>{915e07e4-ca28-470e-be30-9330ade3dccf}</Project>
+      <Name>LL.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.Model\LL.Model.csproj">
+      <Project>{106899a6-304a-4678-97ed-4274b707e15c}</Project>
+      <Name>LL.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.Common\Project.Common.csproj">
+      <Project>{16bc7a29-6abd-45ad-9fb9-71af606c6e50}</Project>
+      <Name>Project.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>20018</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:32210/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

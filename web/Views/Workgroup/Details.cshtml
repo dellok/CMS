@@ -1,0 +1,23 @@
+﻿
+
+@{
+    ViewBag.Title = "工作组";
+    Layout = "~/Views/Shared/_Workgroup_Layout.cshtml";
+}
+
+
+
+@{
+     
+    var  vd=new ViewDataDictionary();
+    vd.Add("isShowLeftAD", false);
+
+    @Html.Partial("~/Views/Shared/Articles/Detail.cshtml", (phome_ecms_news)Model, vd)
+   
+    
+    
+    
+}
+
+
+

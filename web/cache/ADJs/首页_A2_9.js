@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0305/21405046.jpg\"  style=\"width:189px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(231,'http://www.haier.com/cn/business/medical/','青岛海尔特种电器有限公司')\"  />");

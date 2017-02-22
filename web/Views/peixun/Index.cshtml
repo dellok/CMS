@@ -1,0 +1,265 @@
+﻿@{
+
+
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_Layout_Channel.cshtml";
+
+
+    List<List<LL.Model.News.phome_ecms_news>> arr = ViewData.Model;
+
+
+}
+<style>
+
+    .mainbox .left {
+    width: 100%;
+}
+
+</style>
+
+
+<div  class="mainbox body-peixun">
+  
+    <div class="box-slider  box-peixun-left box-peixun-column">
+        <div class="titlebar">
+            <div class="titleword"><a>你的位置:</a>&nbsp;&nbsp;<a href="/" >首页</a> <a>&gt;&nbsp;&gt;</a> <a href="#">行业培训</a></div>
+        </div>
+      
+      
+
+        <div  class="slider">
+            <div id="peixunCarousel" class="carousel slide " data-ride="carousel">
+                <!-- 轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+
+                    @if (arr[0] != null && arr[0].Count > 0)
+                    {
+                        for (int i = 0; i < arr[0].Count; i++)
+                        {
+                            <li data-target="#peixunCarousel" data-slide-to="@i"   class='@i==0?"active":""'></li>
+                        }
+                        
+                    }
+                  
+
+                </ol>
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                 
+
+                    @if (arr[0] != null && arr[0].Count > 0)
+                    {
+                        for (int i = 0; i < arr[0].Count; i++)
+                        {
+
+                            phome_ecms_news model = arr[0][i];
+
+                            var picPath = model.titlepic;
+
+                            var toUrl = MyHtmlExtensions.GetUrlArticleDetalis(model.titleurl, model.ID);
+                            var cls = "item";
+                            cls += i == 0 ? " active" : "";
+                           <div class="@cls">
+                                <img src="@picPath" class="slider-img" alt="" />
+                            </div>
+
+                        }
+                    }
+                    else
+                    {
+
+                        <div class="item active">
+                            <img src="~/Images/unknown-lesson.jpg" alt="" />
+                        </div>
+
+                    }
+
+                  
+                </div>
+            </div>
+
+
+
+  </div>
+
+    </div>
+
+
+
+  
+
+    <div class="box-lesson-review   box-peixun-right box-peixun-column">
+
+        <div class="titlebar">
+            <div class="titleword"><a>课程回顾</a></div>
+        </div>
+         <ul class="listitem  ">
+
+             @if (arr[1] != null && arr[1].Count > 0)
+             {
+                 for (int i = 0; i < arr[1].Count; i++)
+                 {
+
+                     phome_ecms_news model = arr[1][i];
+
+                     var picPath = model.titlepic;
+
+                     var toUrl = MyHtmlExtensions.GetUrlArticleDetalis(model.titleurl, model.ID);
+                     var title = model.title;
+                     var smalltext = model.smalltext;
+
+
+                    <li class="item ">
+                       <a href="@toUrl"> <img src="@picPath" align="absmiddle" /></a>
+                        <p><a href="@toUrl">@title</a></p>
+                        <p><a href="@toUrl">@smalltext</a></p>
+                    </li>
+
+                   
+
+                 }
+             }
+
+         </ul>
+
+    </div>
+
+    <div class="box-new-lesson  box-peixun-column box-peixun-left">
+
+        <div class="titlebar">
+            <div class="titleword"><a href="">最新课程</a></div>
+        </div>
+        <ul class="listitem">
+
+            @if (arr[2] != null && arr[2].Count > 0)
+            {
+                for (int i = 0; i < arr[2].Count; i++)
+                {
+
+                    phome_ecms_news model = arr[2][i];
+
+                    var picPath = model.titlepic;
+
+                    var toUrl = MyHtmlExtensions.GetUrlArticleDetalis(model.titleurl, model.ID);
+                    var title = model.title;
+                    var smalltext = model.smalltext;
+
+
+                    var secondclass = i == 1 ? "second-item" : "";
+
+
+
+
+
+                    <li class="item  @secondclass">
+                        <a href="@toUrl"> <img src="@picPath" align="absmiddle" /></a>
+                        
+                    </li>
+
+
+
+                }
+            }
+            else
+
+            {
+
+                <li class="item"><a href=""><img /></a></li>
+                    <li class="item second-item"><a href=""><img /></a></li>
+                    <li class="item"><a href=""><img /></a></li>
+            }
+
+
+
+        
+
+        </ul>
+
+    </div>
+    <div class="box-quality-lesson box-peixun-right box-peixun-column ">
+
+        <div class="titlebar">
+            <div class="titleword"><a href="">干货分享</a></div>
+        </div>
+        <ul class="listitem  ">
+
+            @if (arr[3] != null && arr[3].Count > 0)
+            {
+                for (int i = 0; i < arr[3].Count; i++)
+                {
+
+                    phome_ecms_news model = arr[3][i];
+
+                    var picPath = model.titlepic;
+
+                    var toUrl = MyHtmlExtensions.GetUrlArticleDetalis(model.titleurl, model.ID);
+                    var title = model.title;
+                    var smalltext = model.smalltext;
+
+                    <li class="item ">
+                        <a href="@toUrl"> <img src="@picPath" align="absmiddle" /></a>
+                        <p class="title"><a href="@toUrl">@title</a></p>
+                        <p class="intro"><a href="@toUrl">@smalltext</a></p>
+                    </li>
+
+
+
+                }
+            }
+
+          
+        </ul>
+
+    </div>
+
+    <div class="box-recommend-lesson  box-peixun-left box-peixun-column">
+
+        <div class="titlebar">
+            <div class="titleword"><a href="">推荐课程</a></div>
+        </div>
+        <ul class="listitem">
+
+            @if (arr[4] != null && arr[4].Count > 0)
+            {
+                for (int i = 0; i < arr[4].Count; i++)
+                {
+
+                    phome_ecms_news model = arr[4][i];
+
+                    var picPath = model.titlepic;
+
+                    var toUrl = MyHtmlExtensions.GetUrlArticleDetalis(model.titleurl, model.ID);
+
+                    var secondclass = i == 1 ? "second-item" : "";
+
+
+
+                    <li class="item  @secondclass">
+                        <a href="@toUrl"> <img src="@picPath" align="absmiddle" /></a>
+
+                    </li>
+
+
+
+                }
+            }
+            else
+
+            {
+
+                <li class="item"><a href=""><img /></a></li>
+                <li class="item second-item"><a href=""><img /></a></li>
+                    <li class="item"><a href=""><img /></a></li>
+            }
+
+
+        </ul>
+
+    </div>
+
+ 
+
+
+    
+</div>
+

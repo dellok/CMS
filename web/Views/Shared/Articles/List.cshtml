@@ -1,0 +1,42 @@
+﻿@model  MvcPager
+@{
+
+    List<phome_ecms_news> arr = new List<phome_ecms_news>();
+    if (Model.NewsCollection.Count > 0)
+    {
+        
+        arr = (List<phome_ecms_news>)Model.NewsCollection[0];
+    }  }
+
+<div class="nav_title">
+    <nav>
+        你的位置：<a href="/">首页</a>>
+
+        @if (!string.IsNullOrEmpty(Model.KeyWord))
+        {
+            @Html.Raw(Model.KeyWord);
+
+            <script> </script>
+        }
+        else
+        {
+            @Html.Action("CategoryUrlPath", "Category", new { classid = Format.DataConvertToInt(Model.ClassID) });
+        }
+
+
+
+    </nav>
+</div>
+<div class="articles_list">
+    <ul>
+        @foreach (var item in (List<phome_ecms_news>)Model.NewsCollection[0])
+        {
+            <li class="list_title"><span class="spanClass">[@Html.Action("CategoryName", "Category", new { classid = item.classid })] </span><span class="spanTitle">   @Html.ActionLinkArticleDetails(item)</span> <span class="spanTime">@item.newstime.ToString("yyyy-MM-dd")</span>  </li>
+
+
+        }
+    </ul>
+</div>
+
+
+@Html.Partial("Pager", Model)

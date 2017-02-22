@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="Author" content="@ViewBag.Author">
+    <meta name="Keywords" content="@ViewBag.Keywords">
+    <meta name="Description" content="@ViewBag.Description">
+    <meta href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    @RenderPage("~/views/shared/header-content.cshtml")
+
+</head>
+
+<body>
+    @RenderPage("~/views/Shared/inc/header.cshtml")
+
+ 
+
+        @RenderBody()
+
+    @RenderSection("footer",false)
+
+   
+
+
+</body>
+</html>
+

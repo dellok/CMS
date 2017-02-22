@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0306/40641707.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(138,'http://www.gdjianhai.com/','广东鉴海冷链有限公司')\"  />");

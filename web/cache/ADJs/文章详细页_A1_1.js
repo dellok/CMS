@@ -1,0 +1,2 @@
+﻿
+document.write("<img onclick=\"javascript:ADClass.ADHit2(77,'http://www.clb.org.cn/zt/2013KJDS/','第二届危化品物流大会')\" style=\"width:300px;height:250px;\" src=\"http://www.liot.org.cn/up/AD/2014/0228/8031769.jpg\">");

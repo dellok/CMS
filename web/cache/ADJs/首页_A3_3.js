@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2014/1218/51146625.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(207,'http://www.newland.com.cn','福建新大陆电脑股份有限公司')\"  />");

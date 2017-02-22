@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="Author" content="@ViewBag.Author">
+    <meta name="Keywords" content="@ViewBag.Keywords">
+    <meta name="Description" content="@ViewBag.Description">
+    <meta href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    @Scripts.Render("~/scripts/index")
+    @Styles.Render("~/css")
+</head>
+
+<body>
+    @RenderPage("~/views/Shared/inc/header.cshtml")
+
+    <div class="mainbox us">
+
+        <div class="us_nav">
+            <ul>
+                <li><a href="/us/about" target="_blank">关于我们 </a></li>
+                <li><a href="/us/contact" target="_blank">联系我们</a></li>
+                <li><a href="/us/law" target="_blank">法律声明</a></li>
+            </ul>
+        </div>
+        <div class="us_content">
+            <div class="txt_nav s14"> &nbsp;<a href="/">首页</a> <a href="#">></a> <a href="#">@ViewBag.NavTitle</a></div>
+            <div class="txt">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    @RenderPage("~/views/Shared/inc/footer.cshtml")
+    @Scripts.Render("~/bundles/jquery")
+</body>
+</html>
+

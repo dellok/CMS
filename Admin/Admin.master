@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#"  CodeFile="Admin.master.cs" Inherits="Admin"   %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <script src="/Scripts/jquery-1.4.1.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/jquery.simplemodal-1.4.1.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/jquery-calendar.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/Common.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/main.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/formValidator.js" type="text/javascript" charset="UTF-8"></script>
+    <script src="/Scripts/formValidatorRegex.js" type="text/javascript" charset="UTF-8"></script>
+    <script src="Scripts/DateFormat.js"   type="text/javascript"></script>
+    <link rel="Stylesheet" href="/Css/main.css" type="text/css" />
+    <link href="/Css/jquery-calendar.css" type="text/css" rel="Stylesheet" />
+    <link href="/Css/pager.css" type="text/css" rel="Stylesheet" />
+    <link href="/Css/gallery.css" type="text/css" rel="Stylesheet" />
+      <link href="/Css/basic.css" type="text/css" rel="Stylesheet" />
+  
+
+</head>
+<body>
+    <form id="form1" runat="server" style="margin: 0px auto; padding: 0px;">
+    <asp:ContentPlaceHolder ID="adminmaster" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
+    <script src="/Scripts/201a.js" type="text/javascript" language="javascript"></script>

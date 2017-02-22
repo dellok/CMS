@@ -1,0 +1,21 @@
+﻿/**顶部广告位**/
+.slideBox{ width:100%;  overflow:hidden; position:relative;   color:#333;font:12px/20px Georgia,Arial,"Microsoft YaHei",sans-serif; text-align:center; }
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:10px; bottom:10px; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  } 
+.slideBox .hd ul li{ float:left; margin-right:5px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; list-style:none;} 
+.slideBox .hd ul li.on{ background:#f00; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;   } 
+.slideBox .bd img{ width:100%;  }  
+
+
+
+
+.flexslider { position: relative; height: 400px; overflow: hidden; background: url(images/loading.gif) 50% no-repeat;width:300px;}
+.slides { position: relative; z-index: 1;}
+.slides li { height: 400px;}
+.slides li img{width:300px;height:400px;}
+.flex-control-nav { position: absolute; bottom: 10px; z-index: 2; width: 100%; text-align: center;}
+.flex-control-nav li { display: inline-block; width: 14px; height: 14px; margin: 0 5px; *display: inline; zoom: 1;}
+.flex-control-nav a { display: inline-block; width: 14px; height: 14px; line-height: 40px; overflow: hidden; background: url(images/dot.png) right 0 no-repeat; cursor: pointer;}
+.flex-control-nav .flex-active { background-position: 0 0;}
+

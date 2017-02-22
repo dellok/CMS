@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2014/1218/58389713.jpg\"  style=\"width:309px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(159,'http://www.gzmpc.com/','广州医药有限公司')\"  />");

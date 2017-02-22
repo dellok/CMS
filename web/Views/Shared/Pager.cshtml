@@ -1,0 +1,75 @@
+﻿@model  MvcPager
+
+@{
+    if (Model==null)
+    {
+        return; 
+    }
+    var defaultMaxPageSize = 100;
+    var defaultMinPageSize = 20;
+    
+    var PageIndex = Model.PageIndex;
+    var PageSize = Model.PageSize;
+    var TotalRecords = Model.TotalRecords;
+    
+    PageIndex = PageIndex > 0 && PageIndex < TotalRecords ? PageIndex : 1;
+    PageSize = PageSize > 0 && PageSize < defaultMaxPageSize ? PageSize : defaultMinPageSize;
+   
+    var PageCount = Format.DataConvertToInt(TotalRecords / PageSize);
+    PageCount = TotalRecords % PageSize == 0 ? PageCount : PageCount + 1;
+  
+    var EndPage = PageIndex + 2 < PageCount ? PageIndex + 2 : PageCount;
+    var PreIndex=PageIndex-1;
+    var NextIndex=PageIndex+1;
+    }
+@if (PageCount<2)
+{
+    return; 
+}
+
+@{
+    
+    
+    
+    var urlPrefix = ""; 
+}
+
+<div class="pager manu">
+    <!--span class="page"><a href="1">1</a></span>-->
+    @if (PageIndex!=1){<span class="pre"><a href="@PreIndex">上一页</a></span> <span class="page"><a href="1">1</a></span> }                                                                                                                                                                                   
+    @if (PageIndex>3){ <span class="split">...</span> }
+                                                          
+
+    @for (int i = PageIndex-2; i <=EndPage; i++)
+    {
+        var  pagerUrl=urlPrefix+i;
+        
+        if (i>0)
+        {
+            if (i==PageIndex)
+            {
+               
+                <span class="current">@i</span>
+            }
+            else
+            {
+                if (i!=1 && i!=PageCount)
+                {
+                    <span class="page"><a href="@pagerUrl">@i</a></span>
+                }        
+            }            
+        }
+    }
+    
+    @if (PageIndex+3<PageCount)   {<span class="split">...</span> }
+    @if (PageIndex!=PageCount) 
+    {
+        
+        var  urlPageCount=urlPrefix+PageCount; 
+         var urlNextPage=urlPrefix+NextIndex;
+         <span class="page"><a href="@urlPageCount">@PageCount</a></span> 
+         <span class="next"><a href="@urlNextPage">下一页</a>  </span>
+    
+    }
+                                        
+        </div>

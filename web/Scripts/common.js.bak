@@ -1,0 +1,50 @@
+﻿
+function tabChange(index, count, idPrefix) {
+    idPrefix += "_";
+    for (var i = 1; i < parseInt(count) + 1; i++) {
+        var dID = idPrefix + i;
+        document.getElementById(dID).className = "itemTabHide";
+    }
+    var dID = idPrefix + index;
+
+ 
+
+    document.getElementById(dID).className = "itemTabShow";
+}
+
+
+var domain = document.domain;
+///新闻浏览顶一下限制
+var key_Visited = "visited";
+var newsHitExpiredHourse = 8;
+////////////
+///清空 input 文本信息
+function ResetText() {
+    $("input:text").each(function () {
+        $(this).val('');
+    });
+}
+//广告类
+function ADClass() { }
+ADClass.ADPV = function (id) {
+    var ashxUrl = domain + "/ashx/ad.ashx?type=pv&id=" + id + "&r=" + Math.random();
+    //HttpReq.Ajax(ashxUrl); 
+    //$.get(ashxUrl);
+}
+ADClass.ADHit = function (adid, url) {
+    var ashxUrl = domain + "/ashx/ad.ashx?id=" + adid + "&r=" + Math.random();
+    HttpReq.Ajax(ashxUrl);
+    window.open(url, "_blank");
+}
+ADClass.ADHit2 = function (id, url, title) {
+
+   
+    //var ashxUrl = domain + "/ashx/ad.ashx?id=" + id + "&title=" + escape(title) + "&r=" + Math.random();
+   // HttpReq.Ajax(ashxUrl);
+
+    window.open(url, "_blank");
+}
+/// 广告计数
+function adHit(adid, url) {
+    ADClass.ADHit(adHit, url);
+}

@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+       <title>@ViewBag.Title</title>
+    <meta NAME="Author" CONTENT="@ViewBag.Author">
+    <meta NAME="Keywords" CONTENT="@ViewBag.Keyword">
+    <meta NAME="Description" CONTENT="@ViewBag.Description">
+    <meta href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+     @Styles.Render("~/css");
+     @* @Scripts.Render("~/bundles/modernizr")*@
+</head>
+
+    @{
+        
+        System.Data.DataSet[]   ds=ViewBag.DS;
+        ViewDataDictionary controlParm = new ViewDataDictionary();
+        controlParm.Add("TLen",10);
+        controlParm.Add("SLen",10);
+        
+        }
+<body   id="body_index">
+    @RenderPage("~/views/Shared/inc/header.cshtml");
+      
+    @RenderBody();
+      <div class="mainbox col2">
+            <div class="left">
+            <div class="item  item360">
+                <div class="titleblock">
+                    <div class="title_l">
+                   @Html.ActionLink("", "");
+                    </div>
+                    <div class="title_r ">
+                    
+                    </div>
+                     <div class="space_l">
+                    </div>
+                    <div class="space_r">
+                    </div>
+                </div>
+                <div class="datalist">
+                  @Html.Partial("_Partial_3Col_Title", ds[0]);
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider_right">
+
+
+
+            </div>
+        </div>
+        </div>
+      
+      <div class="box_2col">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+
+          
+      <div class="box_3col">
+            <div class="left"></div>
+          <div class="middle"></div>
+            <div class="right"></div>
+      </div>
+
+       <div class="box_3col_left2col">
+            <div class="left">
+
+
+
+
+            </div>
+          <div class="middle">
+
+
+          </div>
+            <div class="right"></div>
+      </div>
+     <div class="box_3col_left2col">
+            <div class="left">
+
+            </div>
+          <div class="middle"></div>
+            <div class="right"></div>
+      </div>
+    @RenderPage("~/views/Shared/inc/footer.cshtml");
+        @Scripts.Render("~/bundles/jquery")
+</body>
+</html>

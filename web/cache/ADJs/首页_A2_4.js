@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0305/52677959.jpg\"  style=\"width:189px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(136,'http://www.sqcapital.cn/','天津狮桥国际物流有限公司')\"  />");

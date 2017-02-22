@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0130/36704334.jpg\"  style=\"width:309px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(222,'http://www.njyhx.com','南京永和迅物流有限公司')\"  />");

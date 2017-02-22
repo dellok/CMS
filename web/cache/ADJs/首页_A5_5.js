@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.liot.org.cn/up/ad/2013/A4-5.gif\"  style=\"width:309px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(150,'http://www.fenzhi.com/gso814034.html','湖南华中物联科技有限公司')\"  />");

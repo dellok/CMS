@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2014/1022/57458929.jpg\"  style=\"width:300px;height:250px;\" onclick=\"javascript:ADClass.ADHit2(77,'http://www.clb.org.cn/zt/2013KJDS/','第二届危化品物流大会')\"  />");

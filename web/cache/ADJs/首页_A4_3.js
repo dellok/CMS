@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0206/43373480.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(166,'http://www.sinopharm-ftz.com/','综保区（北京）国际医药分拨中心有限公司')\"  />");

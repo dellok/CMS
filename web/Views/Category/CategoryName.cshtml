@@ -1,0 +1,12 @@
+﻿@model  LL.Model.News.phome_enewsclass
+
+
+
+@if (Model != null)
+{
+    @Html.ActionLinkArticleList(Model.classname, Model.classid);
+}
+else
+{
+    <a href="#">测试分类</a>
+}

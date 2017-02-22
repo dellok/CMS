@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="Author" content="@ViewBag.Author">
+    <meta name="Keywords" content="@ViewBag.Keywords">
+    <meta name="Description" content="@ViewBag.Description">
+    <meta href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    @Scripts.Render("~/scripts/index")
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/css")
+</head>
+
+<body>
+    @RenderPage("~/views/Shared/inc/header.cshtml")
+
+    <div class="mainbox member">
+
+
+        <table  class="tdMemberBox">
+
+
+            <tr>
+                <td class="member_left" >
+
+                    @RenderBody()
+
+                </td>
+
+                <td style="width: 20px; background: url(/images/member/bj.jpg)   "></td>
+                <td class="member_right">
+
+
+                    <img src="/images/member/workgroup-right.jpg"  border="0" usemap="#Map" />
+                 
+                      
+
+                     
+                        <map name="Map" id="Map">
+                          
+                            <area shape="rect" coords="24,76,261,122" href="/workgroup/details/66949" />
+                            <area shape="rect" coords="23,173,259,222" href="/workgroup/details/66948" />
+                            <area shape="rect" coords="24,276,259,325" href="/workgroup/423/" />
+
+                        </map>
+
+                  
+</td>
+
+            </tr>
+
+
+
+
+        </table>
+
+
+      
+    </div>
+
+    @RenderPage("~/views/Shared/inc/footer.cshtml")
+ 
+</body>
+</html>
+

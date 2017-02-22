@@ -1,0 +1,57 @@
+﻿@model  web.Models.MvcPager
+@{
+    
+    List<phome_ecms_news> arr = new List<phome_ecms_news>();
+    if (Model.NewsCollection.Count > 0)
+    {
+        arr = (List<phome_ecms_news>)Model.NewsCollection[0];
+    }  }
+<div class="mainbox  listpage">
+    <div class="left_box">
+        <div class="nav_title">
+            <nav>你的位置：<a href="/">首页</a> @Html.Action("CategoryUrlPath", "Category", new { classid = int.Parse(Model.ClassID) })</nav>
+        </div>
+        <div class="articles_list">
+
+            @foreach (var item in (List<phome_ecms_news>)Model.NewsCollection[0])
+            {
+                <ul>
+                    <li class="list_title">[@Html.Action("CategoryName", "Category", new { classid = item.classid })]    @Html.ActionLinkArticleDetails(item)<span>@item.newstime.ToString("yyyy-MM-dd")</span>  </li>
+
+                </ul>
+            }
+        </div>
+        <div>
+            @Html.Partial("Pager", Model)
+        </div>
+    </div>
+    <div class="right_box">
+        <div class="articlesblock">
+            <div class="right_title">推荐文章</div>
+
+            @Html.Action("ArticlesBlock", "Articles", new { classid = 0, top = 10, orderby = "isgood desc" })
+        </div>
+        <div class="right_ad_box">
+            @{
+                      
+                var data2 = new ViewDataDictionary();
+
+                data2.Add("page", "文章列表页");
+                data2.Add("position", "A1");
+                data2.Add("seq", "1");
+                      
+            }
+            @Html.Partial("ADJs", null, data2)
+        </div>
+
+        <div class="articlesblock">
+            <div class="right_title">热点文章</div>
+
+            @Html.Action("ArticlesBlock", "Articles", new { classid = 0, top = 10, orderby = "  onclick desc    " })
+        </div>
+
+    </div>
+
+
+
+</div>

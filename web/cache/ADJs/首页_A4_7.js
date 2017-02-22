@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0206/6545719.jpg\"  style=\"width:158px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(226,'http://www.yisu56.com/','成都易速物流有限公司')\"  />");

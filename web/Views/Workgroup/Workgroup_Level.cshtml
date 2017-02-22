@@ -1,0 +1,88 @@
+﻿@model MvcPager
+
+     
+@{
+
+    List<phome_ecms_news> arr = new List<phome_ecms_news>();
+    if (Model!=null && Model.NewsCollection.Count > 0)
+    {
+        
+        arr = (List<phome_ecms_news>)Model.NewsCollection[0];
+    } 
+    
+     }
+    
+    
+
+
+           
+<div class="member_btn_level_box s14">
+    <a class="btn_member_level cur_membergroup" href="/Workgroup/423/" title="423">工作组委员</a>
+</div>
+
+    <table cellpadding="0" cellspacing="1" class="member_list_box">
+        <tr>
+            <th class="name"> 姓名 </th>
+            <th class="company">单位名称</th>
+            <th class="job">单位职务</th>
+            <th class="job">工作组职务</th>
+        </tr>
+
+
+        @foreach (phome_ecms_news m in arr)
+        {
+            <tr>
+                <td class="name">@m.befrom</td>
+                <td class="company"><a href="@m.titleurl" target="_blank">@m.title</a></td>
+                <td class="job">@m.smalltext</td>
+                <td class="job">@Html.Raw(m.ftitle)</td>
+        </tr>
+        }
+
+    </table>
+
+
+@Html.Partial("Pager",Model)
+
+
+<script>
+
+    /*
+    $(document).ready(function () { setCurM() });
+    function setCurM() {
+
+         
+       
+
+
+        var curentcss = "cur_membergroup";
+ 
+        var url = document.location.href;
+        var navs = $(".btn_member_level");
+        var isHaveSelected = false;
+
+
+        for (var i = 0; i < navs.length; i++) {
+
+            var item = $(navs[i]);
+             title = $(item).attr("title");
+             if (url.indexOf(title) >= 0) {
+
+                 $(item).addClass(curentcss);
+            
+                 isHaveSelected = true;
+             }
+        }
+
+        if (!isHaveSelected) {
+
+            $(".btn_member_level[title=413]").addClass(curentcss);
+        }
+    }
+
+
+    */
+
+
+
+</script>

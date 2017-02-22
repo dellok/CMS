@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0305/48304965.jpg\"  style=\"width:189px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(101,'http://www.statercapital.com.cn/','上海星泓股权投资管理有限公司')\"  />");

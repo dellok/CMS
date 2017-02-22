@@ -1,0 +1,9 @@
+E:\project\ecl.org.cn\DBUtility\bin\Release\DBUtility.dll
+E:\project\ecl.org.cn\DBUtility\bin\Release\DBUtility.pdb
+E:\project\ecl.org.cn\DBUtility\obj\Release\DBUtility.csprojResolveAssemblyReference.cache
+E:\project\ecl.org.cn\DBUtility\obj\Release\DBUtility.dll
+E:\project\ecl.org.cn\DBUtility\obj\Release\DBUtility.pdb
+E:\project\cpl.org.cn\DBUtility\bin\Release\DBUtility.dll
+E:\project\cpl.org.cn\DBUtility\bin\Release\DBUtility.pdb
+E:\project\cpl.org.cn\DBUtility\obj\Release\DBUtility.dll
+E:\project\cpl.org.cn\DBUtility\obj\Release\DBUtility.pdb

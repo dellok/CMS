@@ -1,0 +1,1 @@
+﻿document.write("<embed   style=\"width:300px;height:280px;\"  src=\"http://www.liot.org.cn/up/AD/2014/0115/29014099.swf\"></embed>");

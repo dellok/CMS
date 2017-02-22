@@ -1,0 +1,8 @@
+E:\project\ecl.org.cn\LL.Model\bin\Release\LL.Model.dll
+E:\project\ecl.org.cn\LL.Model\bin\Release\LL.Model.pdb
+E:\project\ecl.org.cn\LL.Model\obj\Release\LL.Model.dll
+E:\project\ecl.org.cn\LL.Model\obj\Release\LL.Model.pdb
+E:\project\cpl.org.cn\LL.Model\bin\Release\LL.Model.dll
+E:\project\cpl.org.cn\LL.Model\bin\Release\LL.Model.pdb
+E:\project\cpl.org.cn\LL.Model\obj\Release\LL.Model.dll
+E:\project\cpl.org.cn\LL.Model\obj\Release\LL.Model.pdb

@@ -1,0 +1,14 @@
+E:\project\ecl.org.cn\LL.IDAL\bin\Release\LL.IDAL.dll
+E:\project\ecl.org.cn\LL.IDAL\bin\Release\LL.IDAL.pdb
+E:\project\ecl.org.cn\LL.IDAL\bin\Release\LL.Model.dll
+E:\project\ecl.org.cn\LL.IDAL\bin\Release\LL.Model.pdb
+E:\project\ecl.org.cn\LL.IDAL\obj\Release\LL.IDAL.csprojResolveAssemblyReference.cache
+E:\project\ecl.org.cn\LL.IDAL\obj\Release\LL.IDAL.dll
+E:\project\ecl.org.cn\LL.IDAL\obj\Release\LL.IDAL.pdb
+E:\project\cpl.org.cn\LL.IDAL\bin\Release\LL.IDAL.dll
+E:\project\cpl.org.cn\LL.IDAL\bin\Release\LL.IDAL.pdb
+E:\project\cpl.org.cn\LL.IDAL\bin\Release\LL.Model.dll
+E:\project\cpl.org.cn\LL.IDAL\bin\Release\LL.Model.pdb
+E:\project\cpl.org.cn\LL.IDAL\obj\Release\LL.IDAL.csprojResolveAssemblyReference.cache
+E:\project\cpl.org.cn\LL.IDAL\obj\Release\LL.IDAL.dll
+E:\project\cpl.org.cn\LL.IDAL\obj\Release\LL.IDAL.pdb

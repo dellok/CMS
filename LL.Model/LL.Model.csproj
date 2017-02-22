@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{106899A6-304A-4678-97ED-4274B707E15C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LL.Model</RootNamespace>
+    <AssemblyName>LL.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AD\ADList.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="IAggregateRoot.cs" />
+    <Compile Include="IEntity.cs" />
+    <Compile Include="Log\VisitorLog.cs" />
+    <Compile Include="Member\MemberWebSiteFriendLink.cs" />
+    <Compile Include="MvcPager.cs" />
+    <Compile Include="News\NewsFeedback.cs" />
+    <Compile Include="Temp\TempItem.cs" />
+    <Compile Include="Member\phome_enewsfava.cs" />
+    <Compile Include="Member\phome_enewsfavaclass.cs" />
+    <Compile Include="Member\phome_enewsgbook.cs" />
+    <Compile Include="Member\phome_enewsgbookclass.cs" />
+    <Compile Include="Member\phome_enewshy.cs" />
+    <Compile Include="Member\phome_enewshyclass.cs" />
+    <Compile Include="Member\phome_enewskey.cs" />
+    <Compile Include="Member\phome_enewsmember.cs" />
+    <Compile Include="Member\phome_enewsmemberadd.cs" />
+    <Compile Include="Member\phome_enewsmemberfeedback.cs" />
+    <Compile Include="Member\phome_enewsmembergbook.cs" />
+    <Compile Include="Member\phome_enewsmembergroup.cs" />
+    <Compile Include="Member\phome_enewsqmsg.cs" />
+    <Compile Include="Member\phome_enewsspacestyle.cs" />
+    <Compile Include="News\phome_ecms_gsk.cs" />
+    <Compile Include="News\phome_ecms_news.cs" />
+    <Compile Include="News\phome_enewsclass.cs" />
+    <Compile Include="Admin\AdminInAdminRole.cs" />
+    <Compile Include="Admin\AdminRole.cs" />
+    <Compile Include="Admin\AdminUser.cs" />
+    <Compile Include="Popedom\PopedomFun.cs" />
+    <Compile Include="Popedom\PopedomFunInAdminRole.cs" />
+    <Compile Include="Popedom\PopedomGroup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templete\phome_enewsbq.cs" />
+    <Compile Include="Templete\phome_enewsbqtemp.cs" />
+    <Compile Include="Templete\phome_enewsclasstemp.cs" />
+    <Compile Include="Templete\phome_enewslisttemp.cs" />
+    <Compile Include="Templete\phome_enewsmod.cs" />
+    <Compile Include="Templete\phome_enewsnewstemp.cs" />
+    <Compile Include="Templete\phome_enewsnewstempclass.cs" />
+    <Compile Include="Templete\phome_enewspubtemp.cs" />
+    <Compile Include="Templete\phome_enewstempvar.cs" />
+    <Compile Include="Upload\UploadManager.cs" />
+    <Compile Include="Upload\UploadFile.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

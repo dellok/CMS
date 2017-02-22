@@ -1,0 +1,32 @@
+﻿@model  List<phome_enewsclass>  
+
+
+@{ System.Text.StringBuilder html = new System.Text.StringBuilder();  }
+
+
+     
+@for (int i = 0; i < Model.Count(); i++)
+{
+    var item=Model[i];
+
+    if (i==0)
+    {
+        <span class="category_split first_category_split">></span>
+    }
+    if (item!=null)
+    {
+         <span class="category_symbol">@Html.ActionLinkArticleList(item.classname, item.classid)</span>
+ 
+    }
+    if (i==(Model.Count()-1))
+    {
+        <span class="category_split last_category_split">></span>
+    }
+    else{
+    
+          <span class="category_split">></span>
+    }
+   
+ 
+    
+}

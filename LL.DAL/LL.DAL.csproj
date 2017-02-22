@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{915E07E4-CA28-470E-BE30-9330ADE3DCCF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LL.DAL</RootNamespace>
+    <AssemblyName>LL.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\DALAdminInAdminRole.cs" />
+    <Compile Include="Admin\DALAdminRole.cs" />
+    <Compile Include="Admin\DALAdminUser.cs" />
+    <Compile Include="AD\DALADList.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="Member\DALMemberWebSiteFriendLink.cs" />
+    <Compile Include="News\DALNewsFeedback.cs" />
+    <Compile Include="Temp\DALTempItem.cs" />
+    <Compile Include="DALNewsBase.cs" />
+    <Compile Include="IPager.cs" />
+    <Compile Include="Log\DALVisitorLog.cs" />
+    <Compile Include="Member\DALPhomeENewsQMsg.cs" />
+    <Compile Include="Member\DALphome_enewsmembergbook.cs" />
+    <Compile Include="Member\DALphome_enewsmembergroup.cs" />
+    <Compile Include="Member\DALphome_enewsmember.cs" />
+    <Compile Include="Member\DALphome_enewsmemberadd.cs" />
+    <Compile Include="Member\DALphome_enewshyclass.cs" />
+    <Compile Include="Member\DALphome_enewshy.cs" />
+    <Compile Include="Member\DALphome_enewsgbook.cs" />
+    <Compile Include="Member\DALphome_enewsgbookclass.cs" />
+    <Compile Include="Member\DALphome_enewsmemberfeedback.cs" />
+    <Compile Include="Member\DALphome_enewsspacestyle.cs" />
+    <Compile Include="Member\DALphome_enewsfava.cs" />
+    <Compile Include="Member\DALphome_enewsfavaclass.cs" />
+    <Compile Include="News\DALphome_ecms_gsk.cs" />
+    <Compile Include="News\DALphomeecmsnews.cs" />
+    <Compile Include="News\DALphome_enewsclass.cs" />
+    <Compile Include="Popedom\DALPopedomFun.cs" />
+    <Compile Include="Popedom\DALPopedomFunInAdminRole.cs" />
+    <Compile Include="Popedom\DALPopedomGroup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templete\DALphome_enewsmod.cs" />
+    <Compile Include="Templete\DALphome_enewsnewstemp.cs" />
+    <Compile Include="Templete\DALphome_enewsnewstempclass.cs" />
+    <Compile Include="Templete\DALphome_enewstempvar.cs" />
+    <Compile Include="Templete\DALphome_enewslisttemp.cs" />
+    <Compile Include="Templete\DALphome_enewsclasstemp.cs" />
+    <Compile Include="Templete\DALphome_enewsbq.cs" />
+    <Compile Include="Templete\DALphome_enewsbqtemp.cs" />
+    <Compile Include="Templete\DALphome_enewspubtemp.cs" />
+    <Compile Include="Upload\DALUploadFile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{37C284C4-9808-4496-807C-567E13114E37}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.Common\LL.Common.csproj">
+      <Project>{68DE19B8-14F5-42BC-BC5B-CBC8567E32EB}</Project>
+      <Name>LL.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.IDAL\LL.IDAL.csproj">
+      <Project>{B839D13A-19E5-49CD-9EAB-B3121258ECC1}</Project>
+      <Name>LL.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LL.Model\LL.Model.csproj">
+      <Project>{106899A6-304A-4678-97ED-4274B707E15C}</Project>
+      <Name>LL.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.Common\Project.Common.csproj">
+      <Project>{16BC7A29-6ABD-45AD-9FB9-71AF606C6E50}</Project>
+      <Name>Project.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

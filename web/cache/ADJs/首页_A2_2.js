@@ -1,0 +1,1 @@
+document.write("<img  src=\"http://www.cpl.org.cn/up/AD/2015/0305/17580029.jpg\"  style=\"width:189px;height:50px;\" onclick=\"javascript:ADClass.ADHit2(103,'http://www.sinopharmlog.com/gy/consumers/member/controlMember.do?act=toIndex','国药集团医药物流有限公司')\"  />");
