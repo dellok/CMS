@@ -1,1 +1,3 @@
 *.xml
+/packages/
+test*/*
